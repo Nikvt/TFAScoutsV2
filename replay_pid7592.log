@@ -1,0 +1,904 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 454 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 525418 0 96
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 51201 1 6400 0 -1
+ciMethod java/lang/Object hashCode ()I 230401 1 28800 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 16561 1 7232 0 64
+ciMethod java/lang/Object clone ()Ljava/lang/Object; 122881 1 15360 0 -1
+ciMethod java/lang/String equals (Ljava/lang/Object;)Z 4097 11465 92009 0 -1
+ciMethod java/lang/String hashCode ()I 2825 32769 100468 0 320
+ciMethod java/lang/reflect/AnnotatedElement isAnnotationPresent (Ljava/lang/Class;)Z 4097 1 20083 0 3328
+ciMethod java/lang/reflect/AnnotatedElement getAnnotation (Ljava/lang/Class;)Ljava/lang/annotation/Annotation; 0 0 1 0 -1
+ciMethod java/lang/Class isInterface ()Z 5121 1 640 0 -1
+ciMethod java/lang/Class isArray ()Z 9217 1 1152 0 -1
+ciMethod java/lang/Class getName ()Ljava/lang/String; 16385 1 24874 0 96
+ciMethod java/lang/Class getName0 ()Ljava/lang/String; 3097 1 386 0 -1
+ciMethod java/lang/Class getTypeParameters ()[Ljava/lang/reflect/TypeVariable; 2393 1 28095 0 1472
+ciMethod java/lang/Class getSuperclass ()Ljava/lang/Class; 15361 1 1920 0 -1
+ciMethod java/lang/Class getGenericSuperclass ()Ljava/lang/reflect/Type; 4097 1 1246 0 -1
+ciMethod java/lang/Class getGenericInterfaces ()[Ljava/lang/reflect/Type; 4097 1 1234 0 -1
+ciMethod java/lang/Class getComponentType ()Ljava/lang/Class; 8193 1 1024 0 -1
+ciMethod java/lang/Class getModifiers ()I 19457 1 2432 0 -1
+ciMethod java/lang/Class getGenericSignature0 ()Ljava/lang/String; 4113 1 413 0 -1
+ciMethod java/lang/Class getFactory ()Lsun/reflect/generics/factory/GenericsFactory; 433 1 112 0 0
+ciMethod java/lang/Class getGenericInfo ()Lsun/reflect/generics/repository/ClassRepository; 4097 1 5944 0 192
+ciMethod java/lang/Class isAnnotationPresent (Ljava/lang/Class;)Z 4097 1 6259 0 0
+ciMethod java/lang/StackOverflowError <init> (Ljava/lang/String;)V 0 0 1 0 -1
+ciMethod java/util/Map get (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map remove (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map putAll (Ljava/util/Map;)V 0 0 1 0 -1
+ciMethod java/util/List size ()I 0 0 1 0 -1
+ciMethod java/util/List isEmpty ()Z 0 0 1 0 -1
+ciMethod java/util/List add (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/List addAll (Ljava/util/Collection;)Z 0 0 1 0 -1
+ciMethod java/util/List get (I)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/List listIterator ()Ljava/util/ListIterator; 0 0 1 0 -1
+ciMethod java/util/AbstractList <init> ()V 11913 1 45728 0 0
+ciMethod java/util/AbstractList iterator ()Ljava/util/Iterator; 4097 1 5892 0 -1
+ciMethod java/util/AbstractList listIterator ()Ljava/util/ListIterator; 4513 1 7947 0 -1
+ciMethod java/util/AbstractList equals (Ljava/lang/Object;)Z 4097 1657 9440 0 1056
+ciMethod java/util/AbstractList hashCode ()I 4097 849 7033 0 512
+ciMethod java/util/AbstractCollection <init> ()V 10529 1 53869 0 0
+ciMethod java/lang/Math max (II)I 4097 1 140340 0 -1
+ciMethod java/util/AbstractMap <init> ()V 16625 1 19782 0 0
+ciMethod java/util/ArrayList <init> (I)V 18593 1 7899 0 288
+ciMethod java/util/ArrayList <init> ()V 16689 1 24624 0 -1
+ciMethod java/util/ArrayList ensureCapacityInternal (I)V 7577 1 18546 0 0
+ciMethod java/util/ArrayList ensureExplicitCapacity (I)V 7113 1 18198 0 0
+ciMethod java/util/ArrayList grow (I)V 16425 1 7146 0 0
+ciMethod java/util/ArrayList hugeCapacity (I)I 0 0 1 0 0
+ciMethod java/util/ArrayList size ()I 1197057 1 149632 0 0
+ciMethod java/util/ArrayList elementData (I)Ljava/lang/Object; 4097 1 139249 0 96
+ciMethod java/util/ArrayList get (I)Ljava/lang/Object; 4097 1 139053 0 128
+ciMethod java/util/ArrayList add (Ljava/lang/Object;)Z 70137 1 26325 0 768
+ciMethod java/util/ArrayList rangeCheck (I)V 4097 1 139249 0 64
+ciMethod java/util/ArrayList listIterator ()Ljava/util/ListIterator; 4097 1 6160 0 192
+ciMethod java/util/ArrayList iterator ()Ljava/util/Iterator; 33185 1 9403 0 192
+ciMethod java/util/ArrayList access$100 (Ljava/util/ArrayList;)I 126633 1 15829 0 0
+ciMethod java/util/HashMap hash (Ljava/lang/Object;)I 4097 1 152659 0 160
+ciMethod java/util/HashMap comparableClassFor (Ljava/lang/Object;)Ljava/lang/Class; 4097 1 3912 0 -1
+ciMethod java/util/HashMap compareComparables (Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/Object;)I 0 0 1 0 -1
+ciMethod java/util/HashMap <init> ()V 23857 1 13433 0 0
+ciMethod java/util/HashMap get (Ljava/lang/Object;)Ljava/lang/Object; 4097 1 83767 0 640
+ciMethod java/util/HashMap getNode (ILjava/lang/Object;)Ljava/util/HashMap$Node; 4097 169 58130 0 512
+ciMethod java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 4097 1 41456 0 1760
+ciMethod java/util/HashMap putVal (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object; 4097 369 38425 0 1536
+ciMethod java/util/HashMap resize ()[Ljava/util/HashMap$Node; 3185 33753 6088 0 -1
+ciMethod java/util/HashMap treeifyBin ([Ljava/util/HashMap$Node;I)V 49 257 6 0 0
+ciMethod java/util/HashMap newNode (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$Node; 4097 1 30655 0 224
+ciMethod java/util/HashMap newTreeNode (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$TreeNode; 745 1 93 0 -1
+ciMethod java/util/HashMap replacementTreeNode (Ljava/util/HashMap$Node;Ljava/util/HashMap$Node;)Ljava/util/HashMap$TreeNode; 289 1 36 0 -1
+ciMethod java/util/HashMap afterNodeAccess (Ljava/util/HashMap$Node;)V 4097 1 4379 0 0
+ciMethod java/util/HashMap afterNodeInsertion (Z)V 16841 1 28998 0 0
+ciMethod java/util/HashMap$Node <init> (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)V 4097 1 37056 0 96
+ciMethod sun/reflect/generics/repository/ClassRepository <init> (Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)V 441 1 113 0 -1
+ciMethod sun/reflect/generics/repository/ClassRepository make (Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)Lsun/reflect/generics/repository/ClassRepository; 441 1 113 0 0
+ciMethod sun/reflect/generics/repository/ClassRepository getSuperclass ()Ljava/lang/reflect/Type; 3561 1 206 0 -1
+ciMethod sun/reflect/generics/repository/GenericDeclRepository getTypeParameters ()[Ljava/lang/reflect/TypeVariable; 1761 193 8327 0 1024
+ciMethod sun/reflect/generics/repository/AbstractRepository getFactory ()Lsun/reflect/generics/factory/GenericsFactory; 1049 1 131 0 0
+ciMethod sun/reflect/generics/repository/AbstractRepository getTree ()Lsun/reflect/generics/tree/Tree; 1073 1 134 0 0
+ciMethod sun/reflect/generics/repository/AbstractRepository getReifier ()Lsun/reflect/generics/visitor/Reifier; 1313 1 2536 0 0
+ciMethod java/util/Arrays copyOf ([Ljava/lang/Object;I)[Ljava/lang/Object; 7209 1 5769 0 0
+ciMethod java/util/Arrays copyOf ([Ljava/lang/Object;ILjava/lang/Class;)[Ljava/lang/Object; 33153 1 7531 0 -1
+ciMethod java/util/Arrays asList ([Ljava/lang/Object;)Ljava/util/List; 2049 1 22313 0 -1
+ciMethod java/util/Iterator hasNext ()Z 0 0 1 0 -1
+ciMethod java/util/Iterator next ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethodData java/lang/Object <init> ()V 2 525514 orig 264 184 126 213 111 0 0 0 0 136 4 247 27 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 81 22 64 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 4 0 1 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/HashMap$TreeNode root ()Ljava/util/HashMap$TreeNode; 1 1 1 0 -1
+ciMethod java/util/HashMap$TreeNode moveRootToFront ([Ljava/util/HashMap$Node;Ljava/util/HashMap$TreeNode;)V 785 1 98 0 -1
+ciMethod java/util/HashMap$TreeNode find (ILjava/lang/Object;Ljava/lang/Class;)Ljava/util/HashMap$TreeNode; 4097 4625 3703 0 -1
+ciMethod java/util/HashMap$TreeNode getTreeNode (ILjava/lang/Object;)Ljava/util/HashMap$TreeNode; 1609 1 201 0 0
+ciMethod java/util/HashMap$TreeNode tieBreakOrder (Ljava/lang/Object;Ljava/lang/Object;)I 4097 1 594 0 -1
+ciMethod java/util/HashMap$TreeNode treeify ([Ljava/util/HashMap$Node;)V 41 1041 5 0 -1
+ciMethod java/util/HashMap$TreeNode putTreeVal (Ljava/util/HashMap;[Ljava/util/HashMap$Node;ILjava/lang/Object;Ljava/lang/Object;)Ljava/util/HashMap$TreeNode; 745 3257 93 0 0
+ciMethod java/util/HashMap$TreeNode split (Ljava/util/HashMap;[Ljava/util/HashMap$Node;II)V 57 1697 7 0 -1
+ciMethod java/util/HashMap$TreeNode balanceInsertion (Ljava/util/HashMap$TreeNode;Ljava/util/HashMap$TreeNode;)Ljava/util/HashMap$TreeNode; 1113 953 139 0 -1
+ciMethodData java/lang/String hashCode ()I 2 1120181 orig 264 184 126 213 111 0 0 0 0 128 79 247 27 0 0 0 0 152 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 0 0 153 56 12 0 169 61 136 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 4 4 1 0 120 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 15 0x60007 0x10b0c 0x78 0x7c07 0xe0007 0x2bf 0x58 0x7948 0x1e0007 0x7946 0x38 0x11079c 0x2d0003 0x11079c 0xffffffffffffffe0 oops 0
+ciMethod java/util/ArrayList$Itr <init> (Ljava/util/ArrayList;)V 4097 1 11046 0 0
+ciMethod java/util/ArrayList$Itr hasNext ()Z 106241 1 21257 0 96
+ciMethod java/util/ArrayList$Itr next ()Ljava/lang/Object; 88489 1 17889 0 192
+ciMethod java/util/ArrayList$Itr checkForComodification ()V 4401 1 7371 0 0
+ciMethod java/util/ArrayList$Itr <init> (Ljava/util/ArrayList;Ljava/util/ArrayList$1;)V 16945 1 12652 0 96
+ciMethodData java/util/HashMap hash (Ljava/lang/Object;)I 2 152795 orig 264 184 126 213 111 0 0 0 0 168 110 5 28 0 0 0 0 176 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 201 150 18 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 4 0 1 0 104 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 13 0x10007 0x252d1 0x38 0x8 0x50003 0x8 0x48 0x90005 0x101e2 0x1f670170 0x148fa 0x1f670830 0x7f5 oops 2 9 java/lang/String 11 java/security/ProtectionDomain
+ciMethod java/util/ListIterator hasNext ()Z 0 0 1 0 -1
+ciMethod java/util/ListIterator next ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/ArrayList$ListItr <init> (Ljava/util/ArrayList;I)V 4097 1 6160 0 0
+ciMethodData java/util/HashMap putVal (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object; 2 38425 orig 264 184 126 213 111 0 0 0 0 120 123 5 28 0 0 0 0 176 6 0 0 224 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 201 160 4 0 225 84 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 4 0 1 0 64 5 0 0 255 255 255 255 7 0 7 0 0 0 0 0 data 168 0x70007 0x13b6 0x40 0x8063 0x100007 0x8063 0x50 0x0 0x140005 0x13b6 0x0 0x0 0x0 0x0 0x2c0007 0x33a5 0x98 0x6074 0x380005 0x14d6 0x228f0de0 0x4b68 0x1fee1500 0x36 0x3b0004 0x0 0x228f35e0 0x4b89 0x224706b0 0x14eb 0x3c0003 0x6074 0x3d0 0x450007 0x2442 0xc8 0xf63 0x510007 0x970 0x90 0x5f3 0x550007 0x0 0x88 0x5f3 0x5b0005 0x531 0x1fee15b0 0xa 0x1fee1660 0xb8 0x5e0007 0x169 0x38 0x48a 0x650003 0xdfa 0x278 0x6a0004 0xffffffffffffdab2 0x228f35e0 0x21fe 0x224706b0 0x350 0x6d0007 0x254e 0x98 0x5d 0x720004 0x0 0x22e48300 0x5d 0x0 0x0 0x7b0005 0x5d 0x0 0x0 0x0 0x0 0x800003 0x5d 0x1b0 0x8e0007 0xe20 0xb8 0x21ca 0x980005 0x325 0x228f0de0 0x1e7c 0x1fee1500 0x29 0xa20007 0x21c4 0x148 0x6 0xa90005 0x6 0x0 0x0 0x0 0x0 0xac0003 0x6 0xf8 0xb50007 0x9f3 0xc8 0x42d 0xc10007 0x2d8 0xc0 0x155 0xc50007 0x0 0x88 0x155 0xcb0005 0xad 0x1fee1660 0x6 0x1fee1710 0xa2 0xce0007 0xa9 0x38 0xac 0xd10003 0xac 0x30 0xdb0003 0xa9c 0xfffffffffffffe80 0xe00007 0x2227 0x90 0x117e 0xec0007 0x117e 0x40 0x0 0xf10007 0x0 0x20 0x0 0xfd0005 0x9 0x228f0de0 0x10ce 0x1fee17c0 0xa7 0x11c0007 0x7f57 0x50 0x344 0x1200005 0x344 0x0 0x0 0x0 0x0 0x1270005 0x17fb 0x228f0de0 0x6a41 0x1fee1500 0x5f oops 17 20 java/util/HashMap 22 java/io/ExpiringCache$1 26 java/util/HashMap$Node 28 java/util/LinkedHashMap$Entry 47 java/io/File 49 sun/misc/ProxyGenerator$ConstantPool$IndirectEntry 60 java/util/HashMap$Node 62 java/util/LinkedHashMap$Entry 70 java/util/HashMap$TreeNode 89 java/util/HashMap 91 java/io/ExpiringCache$1 120 sun/misc/ProxyGenerator$ConstantPool$IndirectEntry 122 org/glassfish/hk2/utilities/DescriptorImpl 148 java/util/HashMap 150 java/util/LinkedHashMap 164 java/util/HashMap 166 java/io/ExpiringCache$1
+ciMethodData java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 2 41468 orig 264 184 126 213 111 0 0 0 0 152 121 5 28 0 0 0 0 152 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 225 255 4 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 4 0 1 0 64 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 8 0x20002 0x9ffc 0x90005 0x9f67 0x228f0de0 0x95 0x0 0x0 oops 1 4 java/util/HashMap
+ciMethodData java/util/HashMap$Node <init> (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)V 2 37056 orig 264 184 126 213 111 0 0 0 0 80 172 5 28 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 1 118 4 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 4 0 1 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x8ec0 oops 0
+ciMethodData java/util/HashMap newNode (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$Node; 2 30655 orig 264 184 126 213 111 0 0 0 0 8 151 5 28 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 249 173 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 4 0 1 0 16 0 0 0 255 255 255 255 2 0 9 0 0 0 0 0 data 2 0x90002 0x75bf oops 0
+ciMethodData java/util/HashMap afterNodeInsertion (Z)V 2 28998 orig 264 184 126 213 111 0 0 0 0 208 154 5 28 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 105 72 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/util/HashMap getNode (ILjava/lang/Object;)Ljava/util/HashMap$Node; 2 58130 orig 264 184 126 213 111 0 0 0 0 88 120 5 28 0 0 0 0 8 4 0 0 176 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 145 8 7 0 121 52 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 4 0 1 0 176 2 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 86 0x60007 0x9c4 0x2b0 0xd74e 0xe0007 0x0 0x290 0xd74e 0x1c0007 0x48ec 0x270 0x8e62 0x250007 0x2dd5 0xb0 0x608d 0x310007 0x2bd5 0x90 0x34b8 0x350007 0x0 0x70 0x34b8 0x3b0005 0x149c 0x1f670170 0x1f71 0x22470600 0xab 0x3e0007 0x34e 0x20 0x316a 0x4c0007 0x15bd 0x1a0 0x1b66 0x510004 0xffffffffffffe563 0x228f35e0 0x1947 0x224706b0 0x156 0x540007 0x1a9d 0x80 0xc9 0x590004 0x0 0x22e48300 0xc9 0x0 0x0 0x5e0005 0xc9 0x0 0x0 0x0 0x0 0x680007 0xcd8 0xb0 0x1454 0x740007 0x6c0 0x90 0xd94 0x780007 0x0 0x70 0xd94 0x7e0005 0x800 0x1f670170 0x540 0x22470600 0x54 0x810007 0xeb 0x20 0xca9 0x8f0007 0x68f 0xffffffffffffff50 0x734 oops 7 26 java/lang/String 28 java/util/jar/Attributes$Name 40 java/util/HashMap$Node 42 java/util/LinkedHashMap$Entry 50 java/util/HashMap$TreeNode 74 java/lang/String 76 java/util/jar/Attributes$Name
+ciMethodData java/util/HashMap get (Ljava/lang/Object;)Ljava/lang/Object; 2 83806 orig 264 184 126 213 111 0 0 0 0 40 119 5 28 0 0 0 0 200 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 241 42 10 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 4 0 1 0 120 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 15 0x20002 0x1455e 0x60005 0x134ab 0x228f0de0 0x10b3 0x0 0x0 0xb0007 0xf64c 0x38 0x4f12 0xf0003 0x4f12 0x18 oops 1 4 java/util/HashMap
+ciMethodData java/util/ArrayList rangeCheck (I)V 2 139249 orig 264 184 126 213 111 0 0 0 0 160 73 4 28 0 0 0 0 104 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 137 239 16 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 4 0 1 0 64 0 0 0 255 255 255 255 7 0 5 0 0 0 0 0 data 8 0x50007 0x21df1 0x40 0x0 0xe0002 0x0 0x110002 0x0 oops 0
+ciMethodData java/util/ArrayList elementData (I)Ljava/lang/Object; 2 139249 orig 264 184 126 213 111 0 0 0 0 32 64 4 28 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 137 239 16 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 4 0 1 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/util/ArrayList get (I)Ljava/lang/Object; 2 139053 orig 264 184 126 213 111 0 0 0 0 192 64 4 28 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 105 233 16 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 4 0 1 0 64 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 8 0x20002 0x21d2d 0x70005 0x9 0x2000df30 0x21cf1 0x22506f60 0x33 oops 2 4 java/util/ArrayList 6 com/sun/istack/FinalArrayList
+ciMethodData java/util/AbstractMap <init> ()V 2 19812 orig 264 184 126 213 111 0 0 0 0 192 195 3 28 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 201 62 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 1 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x47d9 oops 0
+ciMethodData java/util/AbstractCollection <init> ()V 2 53882 orig 264 184 126 213 111 0 0 0 0 80 8 2 28 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 25 120 6 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 1 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0xcf03 oops 0
+ciMethod java/lang/IllegalStateException <init> (Ljava/lang/String;)V 0 0 1 0 -1
+ciMethod sun/reflect/generics/tree/TypeTree accept (Lsun/reflect/generics/visitor/TypeTreeVisitor;)V 0 0 1 0 -1
+ciMethod sun/reflect/generics/scope/ClassScope make (Ljava/lang/Class;)Lsun/reflect/generics/scope/ClassScope; 4097 1 1668 0 -1
+ciMethod sun/reflect/generics/factory/GenericsFactory makeTypeVariable (Ljava/lang/String;[Lsun/reflect/generics/tree/FieldTypeSignature;)Ljava/lang/reflect/TypeVariable; 0 0 1 0 -1
+ciMethod sun/reflect/generics/factory/CoreReflectionFactory make (Ljava/lang/reflect/GenericDeclaration;Lsun/reflect/generics/scope/Scope;)Lsun/reflect/generics/factory/CoreReflectionFactory; 4097 1 2050 0 -1
+ciMethod sun/reflect/generics/visitor/TypeTreeVisitor visitFormalTypeParameter (Lsun/reflect/generics/tree/FormalTypeParameter;)V 0 0 1 0 -1
+ciMethod sun/reflect/generics/visitor/Reifier <init> (Lsun/reflect/generics/factory/GenericsFactory;)V 4097 1 4563 0 0
+ciMethod sun/reflect/generics/visitor/Reifier getFactory ()Lsun/reflect/generics/factory/GenericsFactory; 8225 1 1028 0 0
+ciMethod sun/reflect/generics/visitor/Reifier make (Lsun/reflect/generics/factory/GenericsFactory;)Lsun/reflect/generics/visitor/Reifier; 4097 1 4543 0 0
+ciMethod sun/reflect/generics/visitor/Reifier getResult ()Ljava/lang/reflect/Type; 4097 1 4511 0 0
+ciMethod sun/reflect/generics/visitor/Reifier visitFormalTypeParameter (Lsun/reflect/generics/tree/FormalTypeParameter;)V 249 1 268 0 0
+ciMethodData java/util/ArrayList ensureCapacityInternal (I)V 2 18591 orig 264 184 126 213 111 0 0 0 0 144 55 4 28 0 0 0 0 144 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 201 40 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 2 0 1 0 64 0 0 0 255 255 255 255 7 0 7 0 0 0 0 0 data 8 0x70007 0x3042 0x30 0x14d7 0xd0002 0x14d7 0x130002 0x4519 oops 0
+ciMethodData java/util/ArrayList ensureExplicitCapacity (I)V 2 18232 orig 264 184 126 213 111 0 0 0 0 64 56 4 28 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 193 41 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 1 0 48 0 0 0 255 255 255 255 7 0 17 0 0 0 0 0 data 6 0x110007 0x2f93 0x30 0x15a5 0x160002 0x15a5 oops 0
+ciMethodData java/util/ArrayList add (Ljava/lang/Object;)Z 2 26351 orig 264 184 126 213 111 0 0 0 0 24 66 4 28 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 129 37 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 4 0 1 0 64 0 0 0 255 255 255 255 2 0 7 0 0 0 0 0 data 8 0x70002 0x44b0 0x1a0104 0x0 0x206bfeb0 0x75c 0x1fee1660 0x789 oops 2 4 sun/misc/ProxyGenerator$ConstantPool$ValueEntry 6 sun/misc/ProxyGenerator$ConstantPool$IndirectEntry
+ciMethodData java/util/HashMap resize ()[Ljava/util/HashMap$Node; 2 41095 orig 264 184 126 213 111 0 0 0 0 168 125 5 28 0 0 0 0 56 6 0 0 176 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 81 14 0 0 209 177 0 0 97 128 4 0 0 0 0 0 0 0 0 0 2 0 0 0 2 0 56 0 4 0 1 0 240 4 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 158 0x60007 0x2d9 0x38 0x1361 0xa0003 0x1361 0x18 0x190007 0x1361 0x98 0x2d9 0x1f0007 0x2d9 0x20 0x0 0x320007 0x0 0x90 0x2d9 0x380007 0x45 0x70 0x294 0x400003 0x294 0x50 0x440007 0xb1c 0x38 0x845 0x4a0003 0x845 0x18 0x570007 0xdb0 0x78 0x88a 0x680007 0x0 0x58 0x88a 0x700007 0x0 0x38 0x88a 0x760003 0x88a 0x18 0x880004 0x0 0x22e47470 0x163a 0x0 0x0 0x940007 0x1361 0x340 0x2d9 0x9d0007 0x2d9 0x320 0x74b0 0xa70007 0x365d 0x2e8 0x3e53 0xae0104 0x0 0x0 0x0 0x0 0x0 0xb40007 0x150d 0x68 0x2946 0xc50004 0x0 0x228f35e0 0x2685 0x224706b0 0x2c1 0xc60003 0x2946 0x248 0xcb0004 0xffffffffffffeafa 0x228f35e0 0x13ba 0x224706b0 0x14c 0xce0007 0x1506 0x98 0x7 0xd30004 0x0 0x22e48300 0x7 0x0 0x0 0xdc0005 0x7 0x0 0x0 0x0 0x0 0xdf0003 0x7 0x180 0xfc0007 0x1468 0x70 0x1bae 0x1010007 0xa0e 0x38 0x11a0 0x1080003 0x11a0 0x18 0x1160003 0x1bae 0x50 0x11b0007 0x601 0x38 0xe67 0x1220003 0xe67 0x18 0x1350007 0x1b10 0xffffffffffffff58 0x1506 0x13a0007 0x366 0x50 0x11a0 0x1490004 0x0 0x228f35e0 0x10a8 0x224706b0 0xf8 0x14c0007 0x69f 0x50 0xe67 0x15d0004 0x0 0x228f35e0 0xd58 0x224706b0 0x10f 0x1610003 0x74b0 0xfffffffffffffcf8 oops 10 50 [Ljava/util/HashMap$Node; 78 java/util/HashMap$Node 80 java/util/LinkedHashMap$Entry 87 java/util/HashMap$Node 89 java/util/LinkedHashMap$Entry 97 java/util/HashMap$TreeNode 141 java/util/HashMap$Node 143 java/util/LinkedHashMap$Entry 151 java/util/HashMap$Node 153 java/util/LinkedHashMap$Entry
+ciMethodData java/util/ArrayList$Itr hasNext ()Z 2 21257 orig 264 184 126 213 111 0 0 0 0 248 25 31 28 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 73 249 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 4 0 1 0 72 0 0 0 255 255 255 255 2 0 8 0 0 0 0 0 data 9 0x80002 0x1f29 0xb0007 0x7a8 0x38 0x1781 0xf0003 0x1781 0x18 oops 0
+ciMethodData java/util/ArrayList$Itr checkForComodification ()V 2 7371 orig 264 184 126 213 111 0 0 0 0 104 29 31 28 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 177 213 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 1 0 48 0 0 0 255 255 255 255 7 0 11 0 0 0 0 0 data 6 0xb0007 0x1ab6 0x30 0x0 0x120002 0x0 oops 0
+ciMethodData java/util/ArrayList$Itr next ()Ljava/lang/Object; 2 17889 orig 264 184 126 213 111 0 0 0 0 216 26 31 28 0 0 0 0 232 1 0 0 96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 97 213 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 4 0 1 0 160 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 20 0x10005 0x1aac 0x0 0x0 0x0 0x0 0xe0002 0x1aac 0x110007 0x1aac 0x30 0x0 0x180002 0x0 0x270007 0x1aac 0x30 0x0 0x2e0002 0x0 oops 0
+ciMethodData java/util/AbstractList <init> ()V 2 45758 orig 264 184 126 213 111 0 0 0 0 232 244 1 28 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 57 120 5 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 1 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0xaf07 oops 0
+ciMethod sun/reflect/generics/tree/FormalTypeParameter getBounds ()[Lsun/reflect/generics/tree/FieldTypeSignature; 337 1 38 0 0
+ciMethod sun/reflect/generics/tree/FormalTypeParameter getName ()Ljava/lang/String; 337 1 38 0 0
+ciMethod sun/reflect/generics/tree/FormalTypeParameter accept (Lsun/reflect/generics/visitor/TypeTreeVisitor;)V 249 1 268 0 0
+ciMethod sun/reflect/generics/tree/Signature getFormalTypeParameters ()[Lsun/reflect/generics/tree/FormalTypeParameter; 0 0 1 0 -1
+ciMethod sun/reflect/generics/tree/ClassSignature getFormalTypeParameters ()[Lsun/reflect/generics/tree/FormalTypeParameter; 753 1 94 0 0
+ciMethod java/lang/reflect/TypeVariable getBounds ()[Ljava/lang/reflect/Type; 0 0 1 0 -1
+ciMethod java/lang/reflect/TypeVariable getName ()Ljava/lang/String; 0 0 1 0 -1
+ciMethod sun/reflect/generics/reflectiveObjects/TypeVariableImpl getBoundASTs ()[Lsun/reflect/generics/tree/FieldTypeSignature; 361 1 60 0 -1
+ciMethod sun/reflect/generics/reflectiveObjects/TypeVariableImpl getBounds ()[Ljava/lang/reflect/Type; 3217 361 616 0 0
+ciMethod sun/reflect/generics/reflectiveObjects/TypeVariableImpl getName ()Ljava/lang/String; 3185 1 398 0 0
+ciMethod sun/reflect/generics/reflectiveObjects/LazyReflectiveObjectGenerator getFactory ()Lsun/reflect/generics/factory/GenericsFactory; 1449 1 181 0 -1
+ciMethod sun/reflect/generics/reflectiveObjects/LazyReflectiveObjectGenerator getReifier ()Lsun/reflect/generics/visitor/Reifier; 1641 1 1495 0 -1
+ciMethodData java/util/HashMap <init> ()V 2 13544 orig 264 184 126 213 111 0 0 0 0 96 115 5 28 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 177 115 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 1 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x2e77 oops 0
+ciMethod sun/reflect/generics/tree/MethodTypeSignature getFormalTypeParameters ()[Lsun/reflect/generics/tree/FormalTypeParameter; 1081 1 135 0 0
+ciMethodData java/lang/Class getName ()Ljava/lang/String; 2 25781 orig 264 184 126 213 111 0 0 0 0 88 198 247 27 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 169 229 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 4 0 1 0 48 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 6 0x60007 0x5b0e 0x30 0x1a7 0xb0002 0x1a7 oops 0
+ciMethodData java/util/ArrayList$Itr <init> (Ljava/util/ArrayList;Ljava/util/ArrayList$1;)V 2 12652 orig 264 184 126 213 111 0 0 0 0 0 30 31 28 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 49 73 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 4 0 1 0 16 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 2 0x20002 0x2926 oops 0
+ciMethodData java/util/ArrayList$Itr <init> (Ljava/util/ArrayList;)V 2 11046 orig 264 184 126 213 111 0 0 0 0 80 25 31 28 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 49 73 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 1 0 16 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 2 0x60002 0x2926 oops 0
+ciMethodData java/util/ArrayList iterator ()Ljava/util/Iterator; 2 9403 orig 264 184 126 213 111 0 0 0 0 200 81 4 28 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 57 164 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 4 0 1 0 16 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 2 0x60002 0x1487 oops 0
+ciMethod java/util/NoSuchElementException <init> ()V 0 0 1 0 -1
+ciMethodData java/util/HashMap afterNodeAccess (Ljava/util/HashMap$Node;)V 2 4379 orig 264 184 126 213 111 0 0 0 0 64 154 5 28 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 217 120 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/util/Arrays copyOf ([Ljava/lang/Object;I)[Ljava/lang/Object; 2 5769 orig 264 184 126 213 111 0 0 0 0 96 235 6 28 0 0 0 0 192 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 41 163 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 1 0 112 0 0 0 255 255 255 255 5 0 3 0 0 0 0 0 data 14 0x30005 0x302 0x22e438a0 0x1163 0x0 0x0 0x60002 0x1465 0x90004 0x0 0x22e438a0 0x2e6 0x206c6e00 0x15 oops 3 2 [Ljava/lang/Object; 10 [Ljava/lang/Object; 12 [Ljava/lang/reflect/Method;
+ciMethodData java/util/ArrayList grow (I)V 2 7146 orig 264 184 126 213 111 0 0 0 0 8 57 4 28 0 0 0 0 176 1 0 0 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 41 159 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 15 0 3 0 1 0 96 0 0 0 255 255 255 255 7 0 15 0 0 0 0 0 data 12 0xf0007 0x6a 0x20 0x137b 0x180007 0x13e5 0x30 0x0 0x1c0002 0x0 0x260002 0x13e5 oops 0
+ciMethodData java/util/ArrayList <init> (I)V 2 7899 orig 264 184 126 213 111 0 0 0 0 248 51 4 28 0 0 0 0 128 2 0 0 104 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 57 174 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 4 0 1 0 48 1 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 38 0x10002 0x15c7 0x50007 0xdff 0x38 0x7c8 0x100003 0x7c8 0x100 0x140007 0x0 0x38 0xdff 0x1e0003 0xdff 0xc8 0x290002 0x0 0x2e0005 0x0 0x0 0x0 0x0 0x0 0x320005 0x0 0x0 0x0 0x0 0x0 0x350005 0x0 0x0 0x0 0x0 0x0 0x380002 0x0 oops 0
+ciMethodData java/lang/reflect/AnnotatedElement isAnnotationPresent (Ljava/lang/Class;)Z 2 29366 orig 264 184 126 213 111 0 0 0 0 232 169 247 27 0 0 0 0 184 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 177 133 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 4 0 1 0 104 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 13 0x20005 0x0 0x1f670200 0x3a44 0x1f671710 0x3672 0x70007 0x705b 0x38 0x5b 0xb0003 0x5b 0x18 oops 2 2 java/lang/Class 4 java/lang/reflect/Method
+ciMethodData java/lang/Object equals (Ljava/lang/Object;)Z 2 7232 orig 264 184 126 213 111 0 0 0 0 240 6 247 27 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 81 161 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 4 0 1 0 56 0 0 0 255 255 255 255 7 0 2 0 0 0 0 0 data 7 0x20007 0x472 0x38 0xfb8 0x60003 0xfb8 0x18 oops 0
+ciMethodData sun/reflect/generics/visitor/Reifier make (Lsun/reflect/generics/factory/GenericsFactory;)Lsun/reflect/generics/visitor/Reifier; 2 4564 orig 264 184 126 213 111 0 0 0 0 64 24 73 28 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 161 126 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 3 0 1 0 16 0 0 0 255 255 255 255 2 0 5 0 0 0 0 0 data 2 0x50002 0xfd4 oops 0
+ciMethodData sun/reflect/generics/visitor/Reifier <init> (Lsun/reflect/generics/factory/GenericsFactory;)V 2 4567 orig 264 184 126 213 111 0 0 0 0 16 23 73 28 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 185 126 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 3 0 1 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0xfd7 oops 0
+ciMethodData sun/reflect/generics/visitor/Reifier getResult ()Ljava/lang/reflect/Type; 2 4590 orig 264 184 126 213 111 0 0 0 0 168 25 73 28 0 0 0 0 112 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 113 127 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 4 0 3 0 1 0 80 0 0 0 255 255 255 255 7 0 3 0 0 0 0 0 data 10 0x30007 0xfee 0x50 0x0 0xa0007 0x0 0x30 0x0 0x110002 0x0 oops 0
+ciMethodData java/lang/Class isAnnotationPresent (Ljava/lang/Class;)Z 2 9486 orig 264 184 126 213 111 0 0 0 0 72 18 248 27 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 113 24 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 11 0 3 0 1 0 16 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 2 0x20002 0x230e oops 0
+ciMethodData java/lang/Class getGenericInfo ()Lsun/reflect/generics/repository/ClassRepository; 2 5944 orig 264 184 126 213 111 0 0 0 0 168 243 247 27 0 0 0 0 8 2 0 0 120 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 193 169 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 12 0 4 0 1 0 192 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 24 0x60007 0x148d 0x88 0xab 0xa0002 0xab 0xf0007 0x44 0x38 0x67 0x160003 0x67 0x38 0x1b0002 0x44 0x1e0002 0x44 0x2b0007 0xd58 0x38 0x7e0 0x2f0003 0x7e0 0x18 oops 0
+ciMethodData java/util/ArrayList hugeCapacity (I)I 1 0 orig 264 184 126 213 111 0 0 0 0 184 57 4 28 0 0 0 0 136 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 1 0 104 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 13 0x10007 0x0 0x30 0x0 0x80002 0x0 0xf0007 0x0 0x38 0x0 0x140003 0x0 0x18 oops 0
+ciMethodData java/util/HashMap$TreeNode getTreeNode (ILjava/lang/Object;)Ljava/util/HashMap$TreeNode; 1 201 orig 264 184 126 213 111 0 0 0 0 120 122 17 28 0 0 0 0 240 1 0 0 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 201 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 1 0 152 0 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 19 0x40007 0x0 0x68 0x0 0x80005 0x0 0x0 0x0 0x0 0x0 0xb0003 0x0 0x18 0x120005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethod org/glassfish/pfl/basic/contain/Pair <init> (Ljava/lang/Object;Ljava/lang/Object;)V 2201 1 22245 0 0
+ciMethod org/glassfish/pfl/basic/contain/Pair first ()Ljava/lang/Object; 1113 1 139 0 0
+ciMethod org/glassfish/pfl/basic/contain/Pair second ()Ljava/lang/Object; 1105 1 138 0 0
+ciMethod org/glassfish/pfl/basic/contain/Pair equals (Ljava/lang/Object;)Z 4097 1 9440 0 1344
+ciMethod org/glassfish/pfl/basic/contain/Pair hashCode ()I 3225 1 7033 0 672
+ciMethod org/glassfish/pfl/basic/algorithm/Algorithms map (Ljava/util/List;Lorg/glassfish/pfl/basic/func/UnaryFunction;)Ljava/util/List; 4097 1 6706 0 -1
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator access$200 ()Ljava/util/Map; 4097 1 8914 0 0
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator access$300 (Ljava/lang/Class;)Ljava/util/List; 2065 1 500 0 -1
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator access$500 (Ljava/lang/Class;)Ljava/util/List; 2465 1 500 0 -1
+ciMethod org/glassfish/gmbal/typelib/DeclarationFactory egat (Lorg/glassfish/gmbal/typelib/EvaluatedType;)Lorg/glassfish/gmbal/typelib/EvaluatedArrayType; 25 1 393 0 0
+ciMethod org/glassfish/gmbal/typelib/DeclarationFactory ecdecl (ILjava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/Class;Z)Lorg/glassfish/gmbal/typelib/EvaluatedClassDeclaration; 4097 1 5964 0 0
+ciMethod org/glassfish/gmbal/typelib/DeclarationFactory ecdecl (ILjava/lang/String;Ljava/lang/Class;)Lorg/glassfish/gmbal/typelib/EvaluatedClassDeclaration; 4097 1 5471 0 0
+ciMethod org/glassfish/gmbal/typelib/DeclarationFactory ecdecl (ILjava/lang/String;Ljava/lang/Class;Z)Lorg/glassfish/gmbal/typelib/EvaluatedClassDeclaration; 4097 1 5958 0 0
+ciMethod org/glassfish/gmbal/typelib/EvaluatedClassDeclaration simpleClass ()Z 0 0 1 0 -1
+ciMethod org/glassfish/gmbal/typelib/EvaluatedClassDeclaration freeze ()V 0 0 1 0 -1
+ciMethod org/glassfish/gmbal/typelib/EvaluatedClassDeclaration fields (Ljava/util/List;)V 0 0 1 0 -1
+ciMethod org/glassfish/gmbal/typelib/EvaluatedClassDeclaration instantiations (Ljava/util/List;)V 0 0 1 0 -1
+ciMethod org/glassfish/gmbal/typelib/EvaluatedClassDeclaration methods (Ljava/util/List;)V 0 0 1 0 -1
+ciMethod org/glassfish/gmbal/typelib/EvaluatedClassDeclaration inheritance (Ljava/util/List;)V 0 0 1 0 -1
+ciMethod org/glassfish/gmbal/typelib/DeclarationFactory$EvaluatedClassDeclarationImpl <init> (ILjava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/Class;Z)V 2201 1 1284 0 0
+ciMethod org/glassfish/gmbal/typelib/DeclarationFactory$EvaluatedClassDeclarationImpl simpleClass ()Z 1761 1 220 0 0
+ciMethod org/glassfish/gmbal/typelib/DeclarationFactory$EvaluatedClassDeclarationImpl checkFrozen ()V 3257 1 2938 0 0
+ciMethod org/glassfish/gmbal/typelib/DeclarationFactory$EvaluatedClassDeclarationImpl instantiations (Ljava/util/List;)V 4097 1 1546 0 0
+ciMethod org/glassfish/gmbal/typelib/EvaluatedClassDeclarationBase <init> ()V 4097 1 1339 0 0
+ciMethod org/glassfish/gmbal/typelib/EvaluatedDeclarationBase <init> ()V 4097 1 5175 0 0
+ciMethod org/glassfish/gmbal/typelib/EvaluatedTypeBase <init> ()V 4097 1 4618 0 0
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator$EvalMapKey <init> (Ljava/lang/Class;Ljava/util/List;)V 4097 1 8470 0 0
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor evaluateType (Ljava/lang/Object;)Lorg/glassfish/gmbal/typelib/EvaluatedType; 4097 1 8546 0 0
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor describe (Ljava/lang/String;Ljava/lang/Object;)V 4097 1 6161 0 -1
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor message (Ljava/lang/String;)V 4097 1 5782 0 0
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor visitClassDeclaration (Ljava/lang/Class;)Lorg/glassfish/gmbal/typelib/EvaluatedType; 2865 1 5525 0 0
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor visitParameterizedType (Ljava/lang/reflect/ParameterizedType;)Lorg/glassfish/gmbal/typelib/EvaluatedType; 1201 1 938 0 -1
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor visitTypeVariable (Ljava/lang/reflect/TypeVariable;)Lorg/glassfish/gmbal/typelib/EvaluatedType; 1521 1 1181 0 -1
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor visitGenericArrayType (Ljava/lang/reflect/GenericArrayType;)Lorg/glassfish/gmbal/typelib/EvaluatedType; 0 0 88 0 -1
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor visitWildcardType (Ljava/lang/reflect/WildcardType;)Lorg/glassfish/gmbal/typelib/EvaluatedType; 721 1 638 0 -1
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor lookup (Ljava/lang/reflect/TypeVariable;)Lorg/glassfish/gmbal/typelib/EvaluatedType; 1889 1 1829 0 0
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor getCorrectDeclaration (Lorg/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor$OrderedResult;Ljava/lang/Class;Lorg/glassfish/gmbal/typelib/EvaluatedClassDeclaration;)Lorg/glassfish/gmbal/typelib/EvaluatedType; 4097 1 5472 0 0
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor processClass (Lorg/glassfish/gmbal/typelib/EvaluatedClassDeclaration;Ljava/util/Map;Ljava/lang/Class;)V 481 1 470 0 0
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor getInheritance (Ljava/lang/Class;)Ljava/util/List; 2529 1 509 0 -1
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor getBindings (Ljava/lang/Class;)Lorg/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor$OrderedResult; 3353 385 4667 0 0
+ciMethod org/glassfish/pfl/basic/contain/Display enterScope ()V 2529 1 509 0 -1
+ciMethod org/glassfish/pfl/basic/contain/Display exitScope ()V 2073 1 473 0 -1
+ciMethod org/glassfish/pfl/basic/contain/Display bind (Ljava/util/Map;)V 2529 1 509 0 -1
+ciMethod org/glassfish/pfl/basic/contain/Display lookup (Ljava/lang/Object;)Ljava/lang/Object; 2049 3001 1953 0 0
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator$PartialDefinitions getKey (Ljava/lang/Class;)Lorg/glassfish/pfl/basic/contain/Pair; 122049 6657 13774 0 4448
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator$PartialDefinitions get (Ljava/lang/Class;)Lorg/glassfish/gmbal/typelib/EvaluatedType; 3225 1 5225 0 0
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator$PartialDefinitions put (Ljava/lang/Class;Lorg/glassfish/gmbal/typelib/EvaluatedType;)V 3657 1 4667 0 0
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator$PartialDefinitions remove (Ljava/lang/Class;)V 3761 1 4642 0 0
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor$OrderedResult <init> ()V 4097 1 7066 0 0
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor$OrderedResult getList ()Ljava/util/List; 3425 1 428 0 0
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor$OrderedResult getMap ()Ljava/util/Map; 489 1 61 0 0
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor$OrderedResult add (Ljava/lang/Object;Ljava/lang/Object;)V 2321 1 1808 0 0
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor$2 <init> (Lorg/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor;)V 2529 1 509 0 -1
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor$3 <init> (Lorg/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor;Lorg/glassfish/gmbal/typelib/EvaluatedClassDeclaration;)V 2457 1 500 0 -1
+ciMethod org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor$4 <init> (Lorg/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor;Lorg/glassfish/gmbal/typelib/EvaluatedClassDeclaration;)V 2481 1 499 0 -1
+ciMethod org/glassfish/gmbal/typelib/DeclarationFactory$EvaluatedArrayTypeImpl <init> (Lorg/glassfish/gmbal/typelib/EvaluatedType;)V 281 1 45 0 0
+ciMethod org/glassfish/gmbal/typelib/EvaluatedArrayTypeBase <init> ()V 281 1 45 0 0
+ciMethodData org/glassfish/pfl/basic/contain/Pair <init> (Ljava/lang/Object;Ljava/lang/Object;)V 2 26675 orig 264 184 126 213 111 0 0 0 0 160 193 153 37 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19 1 0 0 249 56 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 3 0 1 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x671f oops 0
+ciMethodData org/glassfish/pfl/basic/contain/Pair hashCode ()I 2 7033 orig 264 184 126 213 111 0 0 0 0 80 198 153 37 0 0 0 0 232 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 147 1 0 0 49 207 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 4 0 1 0 160 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 20 0x60007 0x0 0x50 0x19e6 0xe0005 0x0 0x1f670200 0x19e6 0x0 0x0 0x170007 0x0 0x50 0x19e6 0x1f0005 0x0 0x2000df30 0x19e6 0x0 0x0 oops 2 6 java/lang/Class 16 java/util/ArrayList
+ciMethodData org/glassfish/gmbal/typelib/TypeEvaluator$PartialDefinitions getKey (Ljava/lang/Class;)Lorg/glassfish/pfl/basic/contain/Pair; 2 13774 orig 264 184 126 213 111 0 0 0 0 40 234 159 37 0 0 0 0 192 2 0 0 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 113 158 1 0 209 15 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 27 0 4 0 1 0 112 1 0 0 255 255 255 255 2 0 4 0 0 0 0 0 data 46 0x40002 0x33ce 0x90005 0x105 0x1f670200 0x32c9 0x0 0x0 0x180007 0x33ce 0x120 0x1fa 0x230005 0x0 0x203ce1a0 0x1fa 0x0 0x0 0x2d0007 0x0 0x88 0x1fa 0x340007 0x1fa 0x50 0x0 0x3c0005 0x0 0x0 0x0 0x0 0x0 0x480003 0x1fa 0x18 0x530005 0x0 0x2000df30 0x1fa 0x0 0x0 0x5c0003 0x1fa 0xfffffffffffffef8 0x650002 0x33ce oops 3 4 java/lang/Class 14 sun/reflect/generics/reflectiveObjects/TypeVariableImpl 37 java/util/ArrayList
+ciMethodData org/glassfish/pfl/basic/contain/Pair equals (Ljava/lang/Object;)Z 2 9440 orig 264 184 126 213 111 0 0 0 0 96 197 153 37 0 0 0 0 184 4 0 0 168 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 1 23 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 20 0 4 0 1 0 104 3 0 0 255 255 255 255 7 0 2 0 0 0 0 0 data 109 0x20007 0x22e0 0x20 0x0 0x80004 0x0 0x22476d40 0xff1 0x2000ca90 0x12ef 0xb0007 0x22e0 0x20 0x0 0x110004 0x0 0x22476d40 0xff1 0x2000ca90 0x12ef 0x160005 0x0 0x22476d40 0xff1 0x2000ca90 0x12ef 0x190007 0x22e0 0x88 0x0 0x1d0005 0x0 0x0 0x0 0x0 0x0 0x200007 0x0 0x248 0x0 0x230003 0x0 0xc8 0x270005 0x0 0x22476d40 0xff1 0x2000ca90 0x12ef 0x2b0005 0x0 0x22476d40 0xff1 0x2000ca90 0x12ef 0x2e0005 0x0 0x1f670200 0x22e0 0x0 0x0 0x310007 0x0 0x180 0x22e0 0x350005 0x0 0x22476d40 0xff1 0x2000ca90 0x12ef 0x380007 0x22e0 0xa0 0x0 0x3c0005 0x0 0x0 0x0 0x0 0x0 0x3f0007 0x0 0x38 0x0 0x430003 0x0 0xc0 0x470003 0x0 0xa8 0x4b0005 0x0 0x22476d40 0xff1 0x2000ca90 0x12ef 0x4f0005 0x0 0x22476d40 0xff1 0x2000ca90 0x12ef 0x520005 0x0 0x2000df30 0x22e0 0x0 0x0 oops 18 6 org/glassfish/gmbal/typelib/TypeEvaluator$EvalMapKey 8 org/glassfish/pfl/basic/contain/Pair 16 org/glassfish/gmbal/typelib/TypeEvaluator$EvalMapKey 18 org/glassfish/pfl/basic/contain/Pair 22 org/glassfish/gmbal/typelib/TypeEvaluator$EvalMapKey 24 org/glassfish/pfl/basic/contain/Pair 45 org/glassfish/gmbal/typelib/TypeEvaluator$EvalMapKey 47 org/glassfish/pfl/basic/contain/Pair 51 org/glassfish/gmbal/typelib/TypeEvaluator$EvalMapKey 53 org/glassfish/pfl/basic/contain/Pair 57 java/lang/Class 67 org/glassfish/gmbal/typelib/TypeEvaluator$EvalMapKey 69 org/glassfish/pfl/basic/contain/Pair 93 org/glassfish/gmbal/typelib/TypeEvaluator$EvalMapKey 95 org/glassfish/pfl/basic/contain/Pair 99 org/glassfish/gmbal/typelib/TypeEvaluator$EvalMapKey 101 org/glassfish/pfl/basic/contain/Pair 105 java/util/ArrayList
+ciMethodData org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor evaluateType (Ljava/lang/Object;)Lorg/glassfish/gmbal/typelib/EvaluatedType; 2 8599 orig 264 184 126 213 111 0 0 0 0 184 177 159 37 0 0 0 0 128 5 0 0 208 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 177 252 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 28 0 3 0 1 0 48 4 0 0 255 255 255 255 7 0 3 0 0 0 0 0 data 134 0x30007 0x1ee8 0x38 0xae 0x80003 0xae 0x410 0xc0004 0xfffffffffffff5d2 0x203cdab0 0x51 0x203ce1a0 0x4b 0xf0007 0xa2e 0x78 0x14ba 0x130004 0x0 0x1f670200 0x14ba 0x0 0x0 0x190002 0x14ba 0x1d0003 0x14aa 0x368 0x210004 0xfffffffffffff931 0x203cdab0 0x35f 0x203ce1a0 0x4b 0x240007 0x6cf 0x78 0x35f 0x280004 0x0 0x203cdab0 0x35f 0x0 0x0 0x2e0002 0x35f 0x320003 0x34f 0x2c0 0x360004 0xfffffffffffffd57 0x203ce1a0 0x426 0x203ce250 0x2e 0x390007 0x2a9 0x78 0x426 0x3d0004 0x0 0x203ce1a0 0x426 0x0 0x0 0x430002 0x426 0x470003 0x425 0x218 0x4b0004 0xfffffffffffffdaf 0x203ce250 0x2e 0x203ce300 0x58 0x4e0007 0x251 0x78 0x58 0x520004 0x0 0x203ce300 0x58 0x0 0x0 0x580002 0x58 0x5c0003 0x58 0x170 0x600004 0x0 0x203ce250 0x251 0x0 0x0 0x630007 0x0 0x78 0x251 0x670004 0x0 0x203ce250 0x251 0x0 0x0 0x6d0002 0x251 0x710003 0x250 0xc8 0x750004 0x0 0x0 0x0 0x0 0x0 0x780007 0x0 0x50 0x0 0x7f0005 0x0 0x0 0x0 0x0 0x0 0x890005 0x0 0x0 0x0 0x0 0x0 oops 14 9 sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl 11 sun/reflect/generics/reflectiveObjects/TypeVariableImpl 19 java/lang/Class 30 sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl 32 sun/reflect/generics/reflectiveObjects/TypeVariableImpl 40 sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl 51 sun/reflect/generics/reflectiveObjects/TypeVariableImpl 53 sun/reflect/generics/reflectiveObjects/WildcardTypeImpl 61 sun/reflect/generics/reflectiveObjects/TypeVariableImpl 72 sun/reflect/generics/reflectiveObjects/WildcardTypeImpl 74 sun/reflect/generics/reflectiveObjects/GenericArrayTypeImpl 82 sun/reflect/generics/reflectiveObjects/GenericArrayTypeImpl 93 sun/reflect/generics/reflectiveObjects/WildcardTypeImpl 103 sun/reflect/generics/reflectiveObjects/WildcardTypeImpl
+ciMethodData org/glassfish/gmbal/typelib/TypeEvaluator access$200 ()Ljava/util/Map; 2 8993 orig 264 184 126 213 111 0 0 0 0 128 254 158 37 0 0 0 0 24 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 9 9 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor visitClassDeclaration (Ljava/lang/Class;)Lorg/glassfish/gmbal/typelib/EvaluatedType; 2 5527 orig 264 184 126 213 111 0 0 0 0 40 181 159 37 0 0 0 0 48 4 0 0 184 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 102 1 0 0 121 161 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 30 0 3 0 1 0 224 2 0 0 255 255 255 255 5 0 3 0 0 0 0 0 data 92 0x30005 0xdf 0x1f670200 0x1350 0x0 0x0 0x60007 0x1300 0xa0 0x12f 0xc0002 0x12f 0x110005 0x3 0x1f670200 0x12c 0x0 0x0 0x140005 0x0 0x22950c70 0x12f 0x0 0x0 0x170002 0x12e 0x200005 0x0 0x22951330 0x1300 0x0 0x0 0x250007 0x214 0x158 0x10ec 0x290005 0xc2 0x1f670200 0x102a 0x0 0x0 0x2d0005 0xc2 0x1f670200 0x102a 0x0 0x0 0x310002 0x10ec 0x3b0005 0x0 0x22951330 0x10ec 0x0 0x0 0x400002 0x10ec 0x4a0002 0x10ec 0x530005 0x0 0x22951330 0x10de 0x0 0x0 0x560003 0x10de 0x48 0x600005 0x0 0x0 0x0 0x0 0x0 0x6a0005 0xd6 0x1f670200 0x121c 0x0 0x0 0x6d0007 0x12f2 0x30 0x0 0x760002 0x0 0x7a0003 0x12f2 0x28 0x7e0002 0x0 oops 9 2 java/lang/Class 14 java/lang/Class 20 org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor 28 org/glassfish/gmbal/typelib/TypeEvaluator$PartialDefinitions 38 java/lang/Class 44 java/lang/Class 52 org/glassfish/gmbal/typelib/TypeEvaluator$PartialDefinitions 62 org/glassfish/gmbal/typelib/TypeEvaluator$PartialDefinitions 77 java/lang/Class
+ciMethodData org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor lookup (Ljava/lang/reflect/TypeVariable;)Lorg/glassfish/gmbal/typelib/EvaluatedType; 2 1956 orig 264 184 126 213 111 0 0 0 0 128 192 159 37 0 0 0 0 16 3 0 0 152 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 236 0 0 0 193 53 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 13 0 3 0 1 0 192 1 0 0 255 255 255 255 5 0 7 0 0 0 0 0 data 56 0x70005 0x0 0x203ce1a0 0x6b8 0x0 0x0 0xc0005 0x0 0x1fff3f70 0x6b8 0x0 0x0 0xf0104 0x0 0x2000cdf0 0x65c 0x228f13a0 0x2f 0x140007 0x68b 0x108 0x2d 0x180005 0x0 0x203ce1a0 0x2d 0x0 0x0 0x200007 0x0 0xb8 0x2d 0x260007 0x2d 0x50 0x0 0x2d0005 0x0 0x0 0x0 0x0 0x0 0x370005 0x0 0x22950c70 0x2d 0x0 0x0 0x3b0003 0x2c 0x18 0x420003 0x6b7 0x28 0x460002 0x0 oops 6 2 sun/reflect/generics/reflectiveObjects/TypeVariableImpl 8 org/glassfish/pfl/basic/contain/Display 14 org/glassfish/gmbal/typelib/DeclarationFactory$EvaluatedClassDeclarationImpl 16 org/glassfish/gmbal/typelib/DeclarationFactory$EvaluatedArrayTypeImpl 24 sun/reflect/generics/reflectiveObjects/TypeVariableImpl 44 org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor
+ciMethodData org/glassfish/gmbal/typelib/DeclarationFactory egat (Lorg/glassfish/gmbal/typelib/EvaluatedType;)Lorg/glassfish/gmbal/typelib/EvaluatedArrayType; 1 393 orig 264 184 126 213 111 0 0 0 0 136 20 159 37 0 0 0 0 8 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 49 12 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 19 0 3 0 1 0 192 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 24 0x40005 0x0 0x228f0de0 0x186 0x0 0x0 0x90104 0x0 0x228f13a0 0x15b 0x0 0x0 0xe0007 0x15b 0x60 0x2b 0x160002 0x2b 0x1f0005 0x0 0x228f0de0 0x2b 0x0 0x0 oops 3 2 java/util/HashMap 8 org/glassfish/gmbal/typelib/DeclarationFactory$EvaluatedArrayTypeImpl 20 java/util/HashMap
+ciMethodData org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor visitWildcardType (Ljava/lang/reflect/WildcardType;)Lorg/glassfish/gmbal/typelib/EvaluatedType; 2 2521 orig 264 184 126 213 111 0 0 0 0 8 191 159 37 0 0 0 0 0 3 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 90 0 0 0 249 75 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 16 0 3 0 1 0 176 1 0 0 255 255 255 255 5 0 3 0 0 0 0 0 data 54 0x30005 0x0 0x203ce250 0x97f 0x0 0x0 0x80002 0x97f 0xd0005 0x0 0x1fe7cb20 0x97f 0x0 0x0 0x120007 0x0 0x118 0x97f 0x160005 0x0 0x1fe7cb20 0x97f 0x0 0x0 0x1c0007 0x97f 0x50 0x0 0x230005 0x0 0x0 0x0 0x0 0x0 0x2c0005 0x0 0x1fe7cb20 0x97f 0x0 0x0 0x310005 0x0 0x22950c70 0x97f 0x0 0x0 0x350003 0x97f 0x18 0x3c0003 0x97f 0x28 0x400002 0x0 oops 5 2 sun/reflect/generics/reflectiveObjects/WildcardTypeImpl 10 java/util/Arrays$ArrayList 20 java/util/Arrays$ArrayList 36 java/util/Arrays$ArrayList 42 org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor
+ciMethodData org/glassfish/gmbal/typelib/TypeEvaluator$EvalMapKey <init> (Ljava/lang/Class;Ljava/util/List;)V 2 8523 orig 264 184 126 213 111 0 0 0 0 32 154 159 37 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 81 250 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 1 0 16 0 0 0 255 255 255 255 2 0 3 0 0 0 0 0 data 2 0x30002 0x1f4b oops 0
+ciMethodData org/glassfish/gmbal/typelib/DeclarationFactory ecdecl (ILjava/lang/String;Ljava/lang/Class;Z)Lorg/glassfish/gmbal/typelib/EvaluatedClassDeclaration; 2 5969 orig 264 184 126 213 111 0 0 0 0 8 26 159 37 0 0 0 0 160 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 137 170 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 3 0 1 0 64 0 0 0 255 255 255 255 2 0 7 0 0 0 0 0 data 8 0x70002 0x1551 0xf0002 0x1551 0x170002 0x1551 0x1c0002 0x1551 oops 0
+ciMethodData org/glassfish/gmbal/typelib/DeclarationFactory ecdecl (ILjava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/Class;Z)Lorg/glassfish/gmbal/typelib/EvaluatedClassDeclaration; 2 6050 orig 264 184 126 213 111 0 0 0 0 8 22 159 37 0 0 0 0 216 2 0 0 128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 9 173 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 27 0 3 0 1 0 96 1 0 0 255 255 255 255 5 0 5 0 0 0 0 0 data 44 0x50005 0xbe 0x1f670200 0x14e3 0x0 0x0 0x90007 0x39d 0x80 0x1204 0x100005 0x0 0x228f0de0 0x1204 0x0 0x0 0x150104 0x0 0x2000cdf0 0x1175 0x0 0x0 0x1c0007 0x1175 0xb0 0x42c 0x2d0002 0x42c 0x340005 0x0 0x2000cdf0 0x42c 0x0 0x0 0x390007 0x39d 0x50 0x8f 0x420005 0x0 0x228f0de0 0x8f 0x0 0x0 oops 5 2 java/lang/Class 12 java/util/HashMap 18 org/glassfish/gmbal/typelib/DeclarationFactory$EvaluatedClassDeclarationImpl 30 org/glassfish/gmbal/typelib/DeclarationFactory$EvaluatedClassDeclarationImpl 40 java/util/HashMap
+ciMethodData org/glassfish/gmbal/typelib/EvaluatedTypeBase <init> ()V 2 4623 orig 264 184 126 213 111 0 0 0 0 64 94 159 37 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 121 128 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 3 0 1 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x100f oops 0
+ciMethodData org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor message (Ljava/lang/String;)V 2 5793 orig 264 184 126 213 111 0 0 0 0 112 179 159 37 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 9 165 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData org/glassfish/gmbal/typelib/EvaluatedDeclarationBase <init> ()V 2 5175 orig 264 184 126 213 111 0 0 0 0 56 84 159 37 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 185 145 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 3 0 1 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x1237 oops 0
+ciMethodData org/glassfish/pfl/basic/contain/Display lookup (Ljava/lang/Object;)Ljava/lang/Object; 2 4121 orig 264 184 126 213 111 0 0 0 0 104 224 159 37 0 0 0 0 128 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 119 1 0 0 121 53 0 0 17 117 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 9 0 3 0 1 0 48 1 0 0 255 255 255 255 5 0 6 0 0 0 0 0 data 38 0x60005 0x0 0x2000df30 0x6af 0x0 0x0 0xf0007 0x2d 0x100 0x1524 0x170005 0x0 0x2000df30 0x1524 0x0 0x0 0x1c0004 0x0 0x228f0de0 0x1524 0x0 0x0 0x200005 0x0 0x228f0de0 0x1524 0x0 0x0 0x270007 0xea2 0x38 0x682 0x2a0003 0x682 0x30 0x300003 0xea2 0xffffffffffffff18 oops 4 2 java/util/ArrayList 12 java/util/ArrayList 18 java/util/HashMap 24 java/util/HashMap
+ciMethodData org/glassfish/gmbal/typelib/DeclarationFactory ecdecl (ILjava/lang/String;Ljava/lang/Class;)Lorg/glassfish/gmbal/typelib/EvaluatedClassDeclaration; 2 5932 orig 264 184 126 213 111 0 0 0 0 40 25 159 37 0 0 0 0 104 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 97 169 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 3 0 1 0 16 0 0 0 255 255 255 255 2 0 4 0 0 0 0 0 data 2 0x40002 0x152c oops 0
+ciMethodData org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor$OrderedResult <init> ()V 2 7107 orig 264 184 126 213 111 0 0 0 0 120 248 159 37 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 25 206 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 3 0 1 0 48 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 6 0x10002 0x19c3 0xa0002 0x19c3 0x150002 0x19c3 oops 0
+ciMethodData org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor getCorrectDeclaration (Lorg/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor$OrderedResult;Ljava/lang/Class;Lorg/glassfish/gmbal/typelib/EvaluatedClassDeclaration;)Lorg/glassfish/gmbal/typelib/EvaluatedType; 2 8463 orig 264 184 126 213 111 0 0 0 0 64 194 159 37 0 0 0 0 144 3 0 0 8 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 121 248 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 12 0 3 0 1 0 48 2 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 70 0x40005 0x0 0x22955350 0x1f0f 0x0 0x0 0x100002 0x1f0f 0x170005 0x0 0x2000df30 0x1f0f 0x0 0x0 0x1c0007 0x19d2 0x50 0x53d 0x220005 0x0 0x2000cdf0 0x53d 0x0 0x0 0x270002 0x1f0f 0x2c0005 0x0 0x228f0de0 0x1f0f 0x0 0x0 0x310104 0x0 0x2000cdf0 0x1d75 0x0 0x0 0x380007 0x1d75 0xc8 0x19a 0x3e0002 0x19a 0x410002 0x19a 0x470005 0x0 0x228f0de0 0x19a 0x0 0x0 0x500005 0x0 0x22955350 0x19a 0x0 0x0 0x540002 0x19a 0x5a0003 0x190 0x28 0x600002 0x1d75 0x630003 0x1f05 0x28 0x680002 0x0 oops 7 2 org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor$OrderedResult 10 java/util/ArrayList 20 org/glassfish/gmbal/typelib/DeclarationFactory$EvaluatedClassDeclarationImpl 28 java/util/HashMap 34 org/glassfish/gmbal/typelib/DeclarationFactory$EvaluatedClassDeclarationImpl 48 java/util/HashMap 54 org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor$OrderedResult
+ciMethodData org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor processClass (Lorg/glassfish/gmbal/typelib/EvaluatedClassDeclaration;Ljava/util/Map;Ljava/lang/Class;)V 1 895 orig 264 184 126 213 111 0 0 0 0 56 196 159 37 0 0 0 0 184 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60 0 0 0 25 26 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 27 0 3 0 1 0 88 2 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 75 0x40005 0x0 0x1fff3f70 0x343 0x0 0x0 0xc0005 0x0 0x1fff3f70 0x343 0x0 0x0 0x110002 0x343 0x190002 0x343 0x1c0002 0x343 0x260002 0x343 0x2c0005 0x0 0x2000cdf0 0x343 0x0 0x0 0x320002 0x343 0x3b0002 0x343 0x3e0002 0x343 0x460005 0x0 0x2000cdf0 0x343 0x0 0x0 0x4c0002 0x343 0x550002 0x342 0x580002 0x342 0x600005 0x0 0x2000cdf0 0x33f 0x0 0x0 0x660005 0x0 0x2000cdf0 0x33f 0x0 0x0 0x6f0002 0x33f 0x760005 0x0 0x1fff3f70 0x33f 0x0 0x0 0x790003 0x33f 0x58 0x7e0002 0x0 0x8a0005 0x0 0x0 0x0 0x0 0x0 oops 7 2 org/glassfish/pfl/basic/contain/Display 8 org/glassfish/pfl/basic/contain/Display 22 org/glassfish/gmbal/typelib/DeclarationFactory$EvaluatedClassDeclarationImpl 34 org/glassfish/gmbal/typelib/DeclarationFactory$EvaluatedClassDeclarationImpl 46 org/glassfish/gmbal/typelib/DeclarationFactory$EvaluatedClassDeclarationImpl 52 org/glassfish/gmbal/typelib/DeclarationFactory$EvaluatedClassDeclarationImpl 60 org/glassfish/pfl/basic/contain/Display
+ciMethodData org/glassfish/gmbal/typelib/TypeEvaluator$PartialDefinitions get (Ljava/lang/Class;)Lorg/glassfish/gmbal/typelib/EvaluatedType; 2 5337 orig 264 184 126 213 111 0 0 0 0 152 236 159 37 0 0 0 0 192 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 147 1 0 0 49 154 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 3 0 1 0 112 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 14 0x60002 0x1346 0x90005 0x0 0x228f0de0 0x1346 0x0 0x0 0xe0104 0x0 0x2000cdf0 0x222 0x0 0x0 oops 2 4 java/util/HashMap 10 org/glassfish/gmbal/typelib/DeclarationFactory$EvaluatedClassDeclarationImpl
+ciMethodData org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor getBindings (Ljava/lang/Class;)Lorg/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor$OrderedResult; 2 5988 orig 264 184 126 213 111 0 0 0 0 232 198 159 37 0 0 0 0 56 2 0 0 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 163 1 0 0 9 174 0 0 121 6 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 9 0 3 0 1 0 232 0 0 0 255 255 255 255 2 0 4 0 0 0 0 0 data 29 0x40002 0x15c1 0x90005 0x3 0x1f670200 0x15be 0x0 0x0 0x180007 0x15c1 0xa8 0xcf 0x240002 0xcf 0x2c0005 0x0 0x203ce1a0 0xcf 0x0 0x0 0x330005 0x0 0x22955350 0xcf 0x0 0x0 0x390003 0xcf 0xffffffffffffff70 oops 3 4 java/lang/Class 16 sun/reflect/generics/reflectiveObjects/TypeVariableImpl 22 org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor$OrderedResult
+ciMethodData org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor$OrderedResult add (Ljava/lang/Object;Ljava/lang/Object;)V 2 2029 orig 264 184 126 213 111 0 0 0 0 152 250 159 37 0 0 0 0 184 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 34 1 0 0 81 54 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 3 0 1 0 96 0 0 0 255 255 255 255 5 0 5 0 0 0 0 0 data 12 0x50005 0x0 0x2000df30 0x6ca 0x0 0x0 0x110005 0x0 0x228f0de0 0x6ca 0x0 0x0 oops 2 2 java/util/ArrayList 8 java/util/HashMap
+ciMethodData org/glassfish/gmbal/typelib/DeclarationFactory$EvaluatedClassDeclarationImpl checkFrozen ()V 2 2938 orig 264 184 126 213 111 0 0 0 0 240 65 159 37 0 0 0 0 24 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 151 1 0 0 25 79 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 10 0 3 0 1 0 208 0 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 26 0x40007 0x9e3 0xd0 0x0 0xf0002 0x0 0x140005 0x0 0x0 0x0 0x0 0x0 0x180005 0x0 0x0 0x0 0x0 0x0 0x1b0005 0x0 0x0 0x0 0x0 0x0 0x1e0002 0x0 oops 0
+ciMethodData org/glassfish/gmbal/typelib/TypeEvaluator$PartialDefinitions put (Ljava/lang/Class;Lorg/glassfish/gmbal/typelib/EvaluatedType;)V 2 5525 orig 264 184 126 213 111 0 0 0 0 32 238 159 37 0 0 0 0 152 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 201 1 0 0 97 158 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 3 0 1 0 64 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 8 0x60002 0x13cc 0xa0005 0x0 0x228f0de0 0x13cc 0x0 0x0 oops 1 4 java/util/HashMap
+ciMethodData org/glassfish/gmbal/typelib/DeclarationFactory$EvaluatedClassDeclarationImpl <init> (ILjava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/Class;Z)V 2 1339 orig 264 184 126 213 111 0 0 0 0 184 58 159 37 0 0 0 0 8 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19 1 0 0 65 33 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 3 0 1 0 136 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 17 0x10002 0x428 0xa0002 0x428 0x340005 0x125 0x1f670200 0x303 0x0 0x0 0x380007 0x39e 0x38 0x8a 0x3c0003 0x8a 0x18 oops 1 6 java/lang/Class
+ciMethodData org/glassfish/gmbal/typelib/TypeEvaluator$PartialDefinitions remove (Ljava/lang/Class;)V 2 12700 orig 264 184 126 213 111 0 0 0 0 160 239 159 37 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 214 1 0 0 49 126 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 1 0 64 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 8 0x60002 0x2fc6 0x90005 0x0 0x228f0de0 0x2fc6 0x0 0x0 oops 1 4 java/util/HashMap
+ciMethodData org/glassfish/gmbal/typelib/EvaluatedClassDeclarationBase <init> ()V 1 1339 orig 264 184 126 213 111 0 0 0 0 184 77 159 37 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 217 25 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 1 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x33b oops 0
+ciMethodData org/glassfish/gmbal/typelib/DeclarationFactory$EvaluatedClassDeclarationImpl instantiations (Ljava/util/List;)V 2 1546 orig 264 184 126 213 111 0 0 0 0 136 69 159 37 0 0 0 0 104 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 81 32 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 13 0 3 0 1 0 64 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 8 0x10002 0x40a 0x80007 0x40a 0x30 0x0 0x110002 0x0 oops 0
+ciMethodData org/glassfish/gmbal/typelib/DeclarationFactory$EvaluatedArrayTypeImpl <init> (Lorg/glassfish/gmbal/typelib/EvaluatedType;)V 1 45 orig 264 184 126 213 111 0 0 0 0 248 80 160 37 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 35 0 0 0 81 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 1 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0xa oops 0
+ciMethodData org/glassfish/gmbal/typelib/EvaluatedArrayTypeBase <init> ()V 1 45 orig 264 184 126 213 111 0 0 0 0 8 86 160 37 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 35 0 0 0 81 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 1 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0xa oops 0
+ciMethodData java/lang/Class getFactory ()Lsun/reflect/generics/factory/GenericsFactory; 1 146 orig 264 184 126 213 111 0 0 0 0 224 242 247 27 0 0 0 0 104 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 54 0 0 0 225 2 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 1 0 32 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 4 0x20002 0x5c 0x50002 0x5c oops 0
+ciMethodData sun/reflect/generics/repository/ClassRepository make (Ljava/lang/String;Lsun/reflect/generics/factory/GenericsFactory;)Lsun/reflect/generics/repository/ClassRepository; 1 147 orig 264 184 126 213 111 0 0 0 0 96 218 5 28 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 55 0 0 0 225 2 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 1 0 16 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 2 0x60002 0x5c oops 0
+ciMethodData java/lang/Class getTypeParameters ()[Ljava/lang/reflect/TypeVariable; 2 29138 orig 264 184 126 213 111 0 0 0 0 8 201 247 27 0 0 0 0 8 2 0 0 96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 43 1 0 0 57 133 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 4 0 1 0 192 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 24 0x10002 0x70a7 0x60007 0x51b1 0x80 0x1ef6 0xa0005 0x0 0x20710130 0x1ef6 0x0 0x0 0xd0004 0x0 0x2000ef60 0xf 0x0 0x0 0x150004 0x0 0x2000ef60 0x5 0x0 0x0 oops 3 8 sun/reflect/generics/repository/ClassRepository 14 [Ljava/lang/reflect/TypeVariable; 20 [Ljava/lang/reflect/TypeVariable;
+ciMethodData sun/reflect/generics/repository/GenericDeclRepository getTypeParameters ()[Ljava/lang/reflect/TypeVariable; 2 8327 orig 264 184 126 213 111 0 0 0 0 88 225 5 28 0 0 0 0 128 3 0 0 128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 220 0 0 0 89 253 0 0 161 7 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 11 0 4 0 1 0 56 2 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 71 0x40007 0x1cdd 0x1d8 0x2ce 0x80005 0x0 0x20305820 0x299 0x20710130 0x35 0xb0004 0x0 0x203058d0 0x299 0x20305980 0x35 0xe0005 0x0 0x203058d0 0x299 0x20305980 0x35 0x1f0007 0x2ce 0x128 0xf4 0x230005 0x0 0x20710130 0x34 0x20305820 0xc0 0x2d0005 0x0 0x20304160 0xf4 0x0 0x0 0x340005 0x0 0x20304980 0xf4 0x0 0x0 0x370004 0x0 0x203ce1a0 0xf4 0x0 0x0 0x3a0004 0x0 0x203ce1a0 0xf4 0x0 0x0 0x3e0003 0xf4 0xfffffffffffffef0 0x4a0005 0x0 0x2000ef60 0x1fab 0x0 0x0 0x4d0004 0x0 0x2000ef60 0x1fab 0x0 0x0 oops 14 6 sun/reflect/generics/repository/MethodRepository 8 sun/reflect/generics/repository/ClassRepository 12 sun/reflect/generics/tree/MethodTypeSignature 14 sun/reflect/generics/tree/ClassSignature 18 sun/reflect/generics/tree/MethodTypeSignature 20 sun/reflect/generics/tree/ClassSignature 28 sun/reflect/generics/repository/ClassRepository 30 sun/reflect/generics/repository/MethodRepository 34 sun/reflect/generics/tree/FormalTypeParameter 40 sun/reflect/generics/visitor/Reifier 46 sun/reflect/generics/reflectiveObjects/TypeVariableImpl 52 sun/reflect/generics/reflectiveObjects/TypeVariableImpl 61 [Ljava/lang/reflect/TypeVariable; 67 [Ljava/lang/reflect/TypeVariable;
+ciMethodData sun/reflect/generics/repository/AbstractRepository getReifier ()Lsun/reflect/generics/visitor/Reifier; 2 2554 orig 264 184 126 213 111 0 0 0 0 96 229 5 28 0 0 0 0 104 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 164 0 0 0 177 74 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 3 0 1 0 32 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 4 0x10002 0x956 0x40002 0x956 oops 0
+ciMethodData sun/reflect/generics/tree/FormalTypeParameter accept (Lsun/reflect/generics/visitor/TypeTreeVisitor;)V 1 268 orig 264 184 126 213 111 0 0 0 0 88 157 79 28 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31 0 0 0 105 7 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 1 0 48 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 6 0x20005 0x0 0x20304980 0xed 0x0 0x0 oops 1 2 sun/reflect/generics/visitor/Reifier
+ciMethodData sun/reflect/generics/visitor/Reifier visitFormalTypeParameter (Lsun/reflect/generics/tree/FormalTypeParameter;)V 1 268 orig 264 184 126 213 111 0 0 0 0 80 26 73 28 0 0 0 0 240 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31 0 0 0 105 7 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 1 0 160 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 20 0x20002 0xed 0x60005 0x0 0x20304160 0xed 0x0 0x0 0xa0005 0x0 0x20304160 0xed 0x0 0x0 0xd0005 0x0 0x207154b0 0xed 0x0 0x0 oops 3 4 sun/reflect/generics/tree/FormalTypeParameter 10 sun/reflect/generics/tree/FormalTypeParameter 16 sun/reflect/generics/factory/CoreReflectionFactory
+ciMethodData java/util/AbstractList hashCode ()I 2 7033 orig 264 184 126 213 111 0 0 0 0 80 255 1 28 0 0 0 0 120 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 201 203 0 0 121 74 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 9 0 4 0 1 0 48 1 0 0 255 255 255 255 5 0 3 0 0 0 0 0 data 38 0x30005 0x0 0x2000df30 0x1979 0x0 0x0 0x80005 0x0 0x24b30f00 0x22c8 0x0 0x0 0xd0007 0x1979 0xd0 0x94f 0x110005 0x0 0x24b30f00 0x94f 0x0 0x0 0x1c0007 0x94f 0x38 0x0 0x200003 0x0 0x48 0x240005 0x404 0x203ce1a0 0x2b8 0x2000cdf0 0x293 0x290003 0x94f 0xffffffffffffff18 oops 5 2 java/util/ArrayList 8 java/util/ArrayList$Itr 18 java/util/ArrayList$Itr 31 sun/reflect/generics/reflectiveObjects/TypeVariableImpl 33 org/glassfish/gmbal/typelib/DeclarationFactory$EvaluatedClassDeclarationImpl
+ciMethodData java/util/ArrayList listIterator ()Ljava/util/ListIterator; 2 6160 orig 264 184 126 213 111 0 0 0 0 40 81 4 28 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 129 176 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 4 0 1 0 16 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 2 0x60002 0x1610 oops 0
+ciMethodData java/util/ArrayList$ListItr <init> (Ljava/util/ArrayList;I)V 2 6160 orig 264 184 126 213 111 0 0 0 0 72 84 33 28 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 129 176 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 3 0 1 0 16 0 0 0 255 255 255 255 2 0 8 0 0 0 0 0 data 2 0x80002 0x1610 oops 0
+ciMethodData java/util/AbstractList equals (Ljava/lang/Object;)Z 2 9440 orig 264 184 126 213 111 0 0 0 0 144 254 1 28 0 0 0 0 200 4 0 0 208 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 1 23 1 0 65 58 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 27 0 4 0 1 0 120 3 0 0 255 255 255 255 7 0 2 0 0 0 0 0 data 111 0x20007 0x22e0 0x20 0x0 0x80004 0x0 0x2000df30 0x22e0 0x0 0x0 0xb0007 0x22e0 0x20 0x0 0x110005 0x0 0x2000df30 0x22e0 0x0 0x0 0x160004 0x0 0x2000df30 0x22e0 0x0 0x0 0x190005 0x0 0x2000df30 0x22e0 0x0 0x0 0x200005 0x0 0x20188410 0x2a27 0x0 0x0 0x250007 0x22e0 0x190 0x747 0x290005 0x0 0x20188410 0x747 0x0 0x0 0x2e0007 0x0 0x140 0x747 0x320005 0x0 0x20188410 0x747 0x0 0x0 0x3a0005 0x0 0x20188410 0x747 0x0 0x0 0x430007 0x747 0x58 0x0 0x480007 0x0 0x88 0x0 0x4b0003 0x0 0x68 0x520005 0x24c 0x2000cdf0 0x30e 0x203ce250 0x1ed 0x550007 0x747 0x20 0x0 0x5a0003 0x747 0xfffffffffffffe58 0x5e0005 0x0 0x20188410 0x22e0 0x0 0x0 0x630007 0x0 0x88 0x22e0 0x670005 0x0 0x20188410 0x22e0 0x0 0x0 0x6c0007 0x0 0x38 0x22e0 0x700003 0x22e0 0x18 oops 12 6 java/util/ArrayList 16 java/util/ArrayList 22 java/util/ArrayList 28 java/util/ArrayList 34 java/util/ArrayList$ListItr 44 java/util/ArrayList$ListItr 54 java/util/ArrayList$ListItr 60 java/util/ArrayList$ListItr 77 org/glassfish/gmbal/typelib/DeclarationFactory$EvaluatedClassDeclarationImpl 79 sun/reflect/generics/reflectiveObjects/WildcardTypeImpl 90 java/util/ArrayList$ListItr 100 java/util/ArrayList$ListItr
+ciMethodData sun/reflect/generics/reflectiveObjects/LazyReflectiveObjectGenerator getReifier ()Lsun/reflect/generics/visitor/Reifier; 2 3967 orig 264 184 126 213 111 0 0 0 0 40 235 79 28 0 0 0 0 104 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 205 0 0 0 145 117 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 1 0 32 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 4 0x10002 0xeb2 0x40002 0xeb2 oops 0
+ciMethodData java/lang/Class getGenericSuperclass ()Ljava/lang/reflect/Type; 1 1246 orig 264 184 126 213 111 0 0 0 0 88 202 247 27 0 0 0 0 40 2 0 0 144 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 241 22 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 7 0 3 0 1 0 224 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 28 0x10002 0x2de 0x60007 0x24a 0x50 0x94 0xa0005 0xf 0x1f670200 0x85 0x0 0x0 0xf0005 0x8 0x1f670200 0x242 0x0 0x0 0x120007 0x42 0x20 0x208 0x180005 0x0 0x20710130 0x42 0x0 0x0 oops 3 8 java/lang/Class 14 java/lang/Class 24 sun/reflect/generics/repository/ClassRepository
+ciMethodData sun/reflect/generics/reflectiveObjects/TypeVariableImpl getBounds ()[Ljava/lang/reflect/Type; 1 1097 orig 264 184 126 213 111 0 0 0 0 48 221 79 28 0 0 0 0 208 2 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 146 1 0 0 185 21 0 0 25 7 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 13 0 3 0 1 0 136 1 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 49 0x40007 0x1d4 0x128 0xe3 0x80002 0xe3 0x170007 0xe3 0xf8 0xe3 0x1b0005 0x0 0x203ce1a0 0xe3 0x0 0x0 0x250005 0x0 0x1fe7d170 0xe3 0x0 0x0 0x2e0005 0x0 0x20304980 0xe3 0x0 0x0 0x310004 0x0 0x1f670200 0xc1 0x203cdab0 0x22 0x350003 0xe3 0xffffffffffffff20 0x410005 0x0 0x2000f980 0x2b7 0x0 0x0 0x440004 0x0 0x2000f980 0x2b7 0x0 0x0 oops 7 12 sun/reflect/generics/reflectiveObjects/TypeVariableImpl 18 sun/reflect/generics/tree/ClassTypeSignature 24 sun/reflect/generics/visitor/Reifier 30 java/lang/Class 32 sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl 39 [Ljava/lang/reflect/Type; 45 [Ljava/lang/reflect/Type;
+ciMethodData sun/reflect/generics/reflectiveObjects/TypeVariableImpl getBoundASTs ()[Lsun/reflect/generics/tree/FieldTypeSignature; 1 278 orig 264 184 126 213 111 0 0 0 0 120 219 79 28 0 0 0 0 112 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45 0 0 0 73 7 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 1 0 80 0 0 0 255 255 255 255 7 0 3 0 0 0 0 0 data 10 0x30007 0xe9 0x50 0x0 0xa0007 0x0 0x30 0x0 0x110002 0x0 oops 0
+ciMethodData org/glassfish/pfl/basic/contain/Display bind (Ljava/util/Map;)V 1 895 orig 264 184 126 213 111 0 0 0 0 80 223 159 37 0 0 0 0 112 2 0 0 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60 1 0 0 25 18 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 3 0 1 0 32 1 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 36 0x40005 0x0 0x2000df30 0x243 0x0 0x0 0x90007 0x243 0x30 0x0 0x120002 0x0 0x1e0005 0x0 0x2000df30 0x243 0x0 0x0 0x250005 0x0 0x2000df30 0x243 0x0 0x0 0x2a0004 0x0 0x228f0de0 0x243 0x0 0x0 0x2e0005 0x0 0x228f0de0 0x243 0x0 0x0 oops 5 2 java/util/ArrayList 14 java/util/ArrayList 20 java/util/ArrayList 26 java/util/HashMap 32 java/util/HashMap
+ciMethodData org/glassfish/gmbal/typelib/TypeEvaluator$TypeEvaluationVisitor getInheritance (Ljava/lang/Class;)Ljava/util/List; 1 895 orig 264 184 126 213 111 0 0 0 0 120 197 159 37 0 0 0 0 88 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60 1 0 0 25 18 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 34 0 3 0 1 0 8 1 0 0 255 255 255 255 2 0 5 0 0 0 0 0 data 33 0x50002 0x243 0xb0005 0x8d 0x1f670200 0x1b6 0x0 0x0 0xe0005 0x0 0x2000df30 0x243 0x0 0x0 0x160005 0x8d 0x1f670200 0x1b6 0x0 0x0 0x190002 0x243 0x1c0005 0x0 0x2000df30 0x243 0x0 0x0 0x220003 0x243 0x28 0x260002 0x0 oops 4 4 java/lang/Class 10 java/util/ArrayList 16 java/lang/Class 24 java/util/ArrayList
+instanceKlass java/text/AttributedString$AttributedStringIterator
+instanceKlass java/text/AttributedString
+instanceKlass sun/awt/im/CompositionAreaHandler
+instanceKlass sun/util/locale/InternalLocaleBuilder$CaseInsensitiveChar
+instanceKlass sun/util/locale/InternalLocaleBuilder
+instanceKlass sun/util/locale/StringTokenIterator
+instanceKlass sun/util/locale/ParseStatus
+instanceKlass sun/awt/im/InputMethodAdapter
+instanceKlass java/awt/im/spi/InputMethod
+instanceKlass java/awt/im/spi/InputMethodContext
+instanceKlass java/awt/KeyboardFocusManager$3
+instanceKlass sun/java2d/loops/FontInfo
+instanceKlass java/awt/PrintGraphics
+instanceKlass java/awt/print/PrinterGraphics
+instanceKlass sun/java2d/pipe/AlphaPaintPipe$TileContext
+instanceKlass java/awt/GradientPaintContext
+instanceKlass java/awt/GradientPaint
+instanceKlass sun/swing/ImageCache$Entry
+instanceKlass sun/swing/ImageCache
+instanceKlass sun/swing/CachedPainter
+instanceKlass javax/swing/plaf/metal/MetalUtils
+instanceKlass sun/awt/image/BufImgSurfaceData$ICMColorData
+instanceKlass sun/java2d/opengl/OGLGraphicsConfig
+instanceKlass sun/awt/SunGraphicsCallback
+instanceKlass sun/java2d/pipe/hw/AccelSurface
+instanceKlass javax/swing/RepaintManager$4
+instanceKlass java/awt/WaitDispatchSupport$2
+instanceKlass java/awt/WaitDispatchSupport$1
+instanceKlass java/awt/WaitDispatchSupport$5
+instanceKlass java/awt/WaitDispatchSupport
+instanceKlass java/awt/KeyboardFocusManager$LightweightFocusRequest
+instanceKlass java/awt/Dialog$3
+instanceKlass java/awt/KeyboardFocusManager$HeavyweightFocusRequest
+instanceKlass java/awt/Dialog$1
+instanceKlass java/awt/ModalEventFilter$1
+instanceKlass java/awt/SequencedEvent$1
+instanceKlass sun/awt/AWTAccessor$SequencedEventAccessor
+instanceKlass java/awt/DefaultKeyboardFocusManager$TypeAheadMarker
+instanceKlass sun/awt/util/IdentityLinkedList$ListItr
+instanceKlass sun/awt/util/IdentityLinkedList$Entry
+instanceKlass java/awt/SplashScreen
+instanceKlass java/awt/event/ComponentAdapter
+instanceKlass java/awt/event/WindowAdapter
+instanceKlass javax/swing/JOptionPane$1
+instanceKlass java/awt/GridBagLayoutInfo
+instanceKlass javax/swing/SizeRequirements
+instanceKlass javax/swing/AbstractAction
+instanceKlass javax/sound/sampled/LineListener
+instanceKlass sun/swing/UIAction
+instanceKlass javax/swing/Action
+instanceKlass sun/awt/NullComponentPeer
+instanceKlass javax/swing/RepaintManager$2$1
+instanceKlass javax/swing/RepaintManager$2
+instanceKlass java/awt/SystemColor$$Lambda$16
+instanceKlass sun/awt/AWTAccessor$SystemColorAccessor
+instanceKlass sun/awt/im/ExecutableInputMethodManager$3
+instanceKlass sun/awt/im/InputMethodLocator
+instanceKlass sun/awt/windows/WInputMethodDescriptor
+instanceKlass java/awt/im/spi/InputMethodDescriptor
+instanceKlass sun/awt/im/InputMethodManager
+instanceKlass sun/awt/FontConfiguration$2
+instanceKlass sun/awt/NativeLibLoader$1
+instanceKlass sun/awt/NativeLibLoader
+instanceKlass sun/awt/PlatformFont
+instanceKlass java/awt/EventQueue$4
+instanceKlass sun/awt/windows/WComponentPeer$2
+instanceKlass sun/awt/windows/WColor
+instanceKlass sun/java2d/StateTracker$2
+instanceKlass sun/java2d/StateTracker$1
+instanceKlass sun/java2d/StateTracker
+instanceKlass sun/java2d/SurfaceDataProxy
+instanceKlass sun/awt/image/SurfaceManager$FlushableCacheData
+instanceKlass sun/java2d/DefaultDisposerRecord
+instanceKlass sun/java2d/loops/GraphicsPrimitiveMgr$PrimitiveSpec
+instanceKlass sun/java2d/loops/RenderLoops
+instanceKlass sun/java2d/windows/GDIRenderer
+instanceKlass sun/java2d/loops/GraphicsPrimitiveMgr$2
+instanceKlass sun/java2d/loops/GraphicsPrimitiveMgr$1
+instanceKlass sun/java2d/loops/GeneralRenderer
+instanceKlass sun/java2d/loops/CustomComponent
+instanceKlass sun/java2d/pipe/ValidatePipe
+instanceKlass java/awt/BasicStroke
+instanceKlass java/awt/AlphaComposite
+instanceKlass sun/awt/ConstrainableGraphics
+instanceKlass sun/java2d/loops/CompositeType
+instanceKlass sun/java2d/loops/GraphicsPrimitiveMgr
+instanceKlass sun/java2d/loops/GraphicsPrimitive
+instanceKlass sun/java2d/loops/XORComposite
+instanceKlass sun/java2d/pipe/hw/AccelGraphicsConfig
+instanceKlass sun/java2d/pipe/hw/BufferedContextProvider
+instanceKlass sun/java2d/d3d/D3DScreenUpdateManager$$Lambda$15
+instanceKlass sun/java2d/d3d/D3DScreenUpdateManager$$Lambda$14
+instanceKlass sun/java2d/ScreenUpdateManager
+instanceKlass sun/awt/im/InputMethodWindow
+instanceKlass sun/awt/ExtendedKeyCodes
+instanceKlass sun/awt/RepaintArea
+instanceKlass sun/awt/windows/WWindowPeer$GuiDisposedListener
+instanceKlass sun/awt/windows/WWindowPeer$ActiveWindowListener
+instanceKlass javax/swing/KeyboardManager$ComponentKeyStrokePair
+instanceKlass java/awt/TrayIcon
+instanceKlass java/awt/EventQueue$3
+instanceKlass javax/swing/KeyboardManager
+instanceKlass sun/awt/dnd/SunDragSourceContextPeer
+instanceKlass javax/swing/plaf/basic/BasicOptionPaneUI$Handler
+instanceKlass sun/awt/EventQueueDelegate
+instanceKlass java/awt/EventDispatchThread$HierarchyEventFilter
+instanceKlass java/awt/EventDispatchThread$1
+instanceKlass java/awt/EventQueue$5
+instanceKlass java/awt/event/InvocationEvent$1
+instanceKlass sun/awt/AWTAccessor$InvocationEventAccessor
+instanceKlass javax/swing/JComponent$2
+instanceKlass javax/swing/plaf/basic/BasicOptionPaneUI$2
+instanceKlass sun/font/CMap
+instanceKlass sun/font/T2KFontScaler$1
+instanceKlass sun/font/FontScaler
+instanceKlass sun/font/TrueTypeFont$DirectoryEntry
+instanceKlass sun/nio/ch/NativeThreadSet
+instanceKlass java/io/RandomAccessFile
+instanceKlass sun/font/TrueTypeFont$1
+instanceKlass sun/font/TrueTypeFont$TTDisposerRecord
+instanceKlass sun/font/StrikeCache$DisposableStrike
+instanceKlass sun/font/FontDesignMetrics$MetricsKey
+instanceKlass sun/awt/Win32FontManager$2
+instanceKlass sun/font/SunFontManager$3
+instanceKlass sun/font/CompositeFontDescriptor
+instanceKlass sun/awt/FontDescriptor
+instanceKlass sun/awt/FontConfiguration
+instanceKlass sun/font/SunFontManager$FontRegistrationInfo
+instanceKlass sun/font/SunFontManager$2
+instanceKlass sun/awt/Win32FontManager$1
+instanceKlass sun/font/FontManagerFactory$1
+instanceKlass sun/font/FontManagerFactory
+instanceKlass sun/font/GlyphList
+instanceKlass sun/font/StrikeCache$1
+instanceKlass sun/font/StrikeCache
+instanceKlass sun/font/FontUtilities$1
+instanceKlass sun/font/FontUtilities
+instanceKlass sun/font/FontManagerNativeLibrary$1
+instanceKlass sun/font/FontManagerNativeLibrary
+instanceKlass sun/font/SunFontManager$1
+instanceKlass sun/font/SunFontManager$T1Filter
+instanceKlass sun/font/SunFontManager$TTFilter
+instanceKlass sun/font/SunFontManager
+instanceKlass sun/font/FontManagerForSGE
+instanceKlass sun/font/FontManager
+instanceKlass sun/java2d/FontSupport
+instanceKlass javax/swing/plaf/basic/BasicGraphicsUtils
+instanceKlass javax/swing/plaf/basic/BasicOptionPaneUI$ButtonActionListener
+instanceKlass java/beans/VetoableChangeListener
+instanceKlass javax/swing/event/AncestorListener
+instanceKlass java/awt/AWTEventMulticaster
+instanceKlass javax/swing/plaf/basic/BasicButtonListener
+instanceKlass javax/swing/plaf/metal/MetalBorders
+instanceKlass javax/swing/AbstractButton$Handler
+instanceKlass javax/swing/event/ChangeListener
+instanceKlass javax/swing/DefaultButtonModel
+instanceKlass javax/swing/ButtonModel
+instanceKlass javax/swing/plaf/basic/BasicOptionPaneUI$ButtonFactory
+instanceKlass javax/swing/plaf/basic/BasicOptionPaneUI$ButtonAreaLayout
+instanceKlass javax/swing/ScrollPaneConstants
+instanceKlass javax/swing/plaf/basic/BasicHTML
+instanceKlass javax/swing/plaf/metal/DefaultMetalTheme$FontDelegate$1
+instanceKlass java/awt/image/BufferedImage$1
+instanceKlass java/awt/image/DataBuffer$1
+instanceKlass sun/awt/image/SunWritableRaster$DataStealer
+instanceKlass sun/awt/image/PNGImageDecoder$Chromaticities
+instanceKlass sun/awt/image/ImageDecoder
+instanceKlass sun/awt/image/MultiResolutionImage
+instanceKlass java/awt/MediaEntry
+instanceKlass sun/awt/image/ImageFetcher$1
+instanceKlass sun/awt/image/FetcherInfo
+instanceKlass sun/awt/image/ImageConsumerQueue
+instanceKlass sun/awt/image/ImageWatched$Link
+instanceKlass sun/awt/image/ImageWatched
+instanceKlass sun/awt/image/NativeLibLoader$1
+instanceKlass sun/awt/image/NativeLibLoader
+instanceKlass sun/awt/image/InputStreamImageSource
+instanceKlass sun/awt/image/ImageFetchable
+instanceKlass java/awt/MediaTracker
+instanceKlass javax/swing/ImageIcon$2
+instanceKlass javax/swing/ImageIcon$1
+instanceKlass javax/swing/ImageIcon
+instanceKlass javax/swing/Icon
+instanceKlass sun/swing/SwingUtilities2$2$1
+instanceKlass java/awt/GridBagConstraints
+instanceKlass java/awt/GridBagLayout
+instanceKlass javax/swing/BoxLayout
+instanceKlass java/util/Formattable
+instanceKlass java/text/DateFormatSymbols
+instanceKlass sun/util/locale/provider/CalendarDataUtility$CalendarWeekParameterGetter
+instanceKlass sun/util/locale/provider/CalendarDataUtility
+instanceKlass java/util/Calendar$Builder
+instanceKlass java/util/Formatter$FixedString
+instanceKlass java/util/Formatter$DateTime
+instanceKlass javax/validation/Configuration
+instanceKlass javax/validation/ValidatorFactory
+instanceKlass org/hibernate/validator/HibernateValidator
+instanceKlass com/sun/enterprise/loader/ASURLClassLoader$2
+instanceKlass com/sun/enterprise/module/common_impl/CompositeEnumeration
+instanceKlass javax/validation/spi/ValidationProvider
+instanceKlass javax/validation/Validation$GetValidationProviderListAction
+instanceKlass javax/validation/Validation$DefaultValidationProviderResolver
+instanceKlass javax/validation/ValidationProviderResolver
+instanceKlass javax/validation/Validation$GenericBootstrapImpl
+instanceKlass javax/validation/spi/BootstrapState
+instanceKlass javax/validation/bootstrap/ProviderSpecificBootstrap
+instanceKlass javax/validation/bootstrap/GenericBootstrap
+instanceKlass javax/validation/Validation
+instanceKlass com/sun/enterprise/loader/ASURLClassLoader$URLEntry
+instanceKlass com/sun/enterprise/security/integration/PermsHolder
+instanceKlass com/sun/appserv/connectors/internal/api/ConnectorsClassLoaderUtil$2
+instanceKlass com/sun/enterprise/v3/server/AppLibClassLoaderServiceImpl$2
+instanceKlass com/sun/appserv/connectors/internal/api/ConnectorsClassLoaderUtil$1
+instanceKlass org/glassfish/loader/util/ASClassLoaderUtil
+instanceKlass java/util/Collections$3
+instanceKlass org/glassfish/deployment/common/InstalledLibrariesResolver
+instanceKlass com/sun/enterprise/deploy/shared/FileArchive$StaleFileManagerImpl
+instanceKlass com/sun/enterprise/deploy/shared/FileArchive$StaleFileManager
+instanceKlass com/sun/enterprise/deploy/shared/FileArchive$StaleFileManager$Util
+instanceKlass com/sun/appserv/connectors/internal/api/ConnectorClassLoaderServiceImpl$1
+instanceKlass javax/resource/spi/endpoint/MessageEndpointFactory
+instanceKlass com/sun/enterprise/connectors/util/SetMethodAction
+instanceKlass com/sun/enterprise/connectors/util/ConnectorDDTransformUtils
+instanceKlass org/jvnet/hk2/internal/ErrorInformationImpl
+instanceKlass org/glassfish/hk2/utilities/reflection/Pretty
+instanceKlass com/sun/enterprise/config/modularity/ConfigModularityJustInTimeInjectionResolver
+instanceKlass org/glassfish/hk2/api/JustInTimeInjectionResolver
+instanceKlass com/sun/enterprise/config/serverbeans/Config
+instanceKlass org/jvnet/hk2/config/UnprocessedChangeEvents
+instanceKlass com/sun/enterprise/config/serverbeans/Servers
+instanceKlass com/sun/enterprise/connectors/jms/system/JMSConfigListener
+instanceKlass com/sun/enterprise/config/serverbeans/AvailabilityService
+instanceKlass com/sun/enterprise/connectors/jms/util/JmsRaUtil
+instanceKlass com/sun/enterprise/connectors/jms/system/MQAddressList
+instanceKlass com/sun/enterprise/connectors/jms/config/JmsAvailability
+instanceKlass com/sun/enterprise/config/serverbeans/AvailabilityServiceExtension
+instanceKlass com/sun/enterprise/config/serverbeans/JmxConnector
+instanceKlass com/sun/enterprise/config/serverbeans/AdminService
+instanceKlass com/sun/enterprise/connectors/jms/config/JmsHost
+instanceKlass com/sun/enterprise/connectors/jms/config/JmsService
+instanceKlass org/glassfish/grizzly/config/dom/NetworkListener
+instanceKlass javax/resource/spi/ActivationSpec
+instanceKlass com/sun/enterprise/deployment/DescriptorConstants
+instanceKlass com/sun/enterprise/deployment/EjbMessageBeanDescriptor
+instanceKlass com/sun/enterprise/connectors/inbound/MessageEndpointFactoryInfo
+instanceKlass javax/resource/spi/BootstrapContext
+instanceKlass com/sun/enterprise/connectors/ActiveResourceAdapterImpl
+instanceKlass com/sun/enterprise/connectors/inbound/ActiveInboundResourceAdapter
+instanceKlass com/sun/gjc/spi/ResourceAdapterImpl
+instanceKlass com/sun/appserv/connectors/internal/api/ConnectorsUtil
+instanceKlass javax/naming/Referenceable
+instanceKlass org/glassfish/apf/AnnotationInfo
+instanceKlass com/sun/enterprise/connectors/service/ConnectorAdminServiceUtils
+instanceKlass com/sun/enterprise/resource/naming/ConnectorNamingUtils
+instanceKlass com/sun/enterprise/resource/naming/ConnectorObjectFactory
+instanceKlass javax/naming/spi/ObjectFactory
+instanceKlass javax/naming/NameImpl
+instanceKlass javax/naming/CompositeName
+instanceKlass javax/rmi/CORBA/ProxyDesc
+instanceKlass javax/rmi/CORBA/EnumDesc
+instanceKlass com/sun/corba/ee/impl/io/ObjectStreamClassCorbaExt
+instanceKlass com/sun/corba/ee/impl/io/IIOPInputStream$ActiveRecursionManager
+instanceKlass com/sun/corba/ee/impl/io/IIOPInputStream$2
+instanceKlass com/sun/corba/ee/impl/io/IIOPInputStream$1
+instanceKlass com/sun/corba/ee/impl/io/InputStreamHook$ReadObjectState
+instanceKlass com/sun/org/omg/SendingContext/CodeBaseHelper
+instanceKlass javax/naming/Reference
+instanceKlass com/sun/corba/ee/impl/misc/CacheTable$Entry
+instanceKlass com/sun/corba/ee/impl/misc/CacheTable
+instanceKlass org/omg/CosTransactions/OTSPolicyValueHelper
+instanceKlass com/sun/enterprise/iiop/security/GSSUtils
+instanceKlass com/sun/corba/ee/org/omg/CSIIOP/TransportAddressHelper
+instanceKlass com/sun/corba/ee/org/omg/CSIIOP/TransportAddress
+instanceKlass com/sun/corba/ee/org/omg/CSIIOP/TransportAddressListHelper
+instanceKlass com/sun/corba/ee/org/omg/CSIIOP/TLS_SEC_TRANS
+instanceKlass com/sun/corba/ee/org/omg/CSIIOP/TLS_SEC_TRANSHelper
+instanceKlass com/sun/corba/ee/org/omg/CSI/OIDListHelper
+instanceKlass com/sun/corba/ee/org/omg/CSIIOP/ServiceConfiguration
+instanceKlass com/sun/corba/ee/org/omg/CSIIOP/ServiceConfigurationListHelper
+instanceKlass com/sun/corba/ee/org/omg/CSIIOP/SAS_ContextSecHelper
+instanceKlass com/sun/corba/ee/org/omg/CSI/GSS_NT_ExportedNameHelper
+instanceKlass com/sun/corba/ee/org/omg/CSI/OIDHelper
+instanceKlass com/sun/corba/ee/org/omg/CSIIOP/AS_ContextSecHelper
+instanceKlass com/sun/corba/ee/org/omg/CSIIOP/CompoundSecMechHelper
+instanceKlass com/sun/corba/ee/org/omg/CSIIOP/CompoundSecMechanismsHelper
+instanceKlass com/sun/corba/ee/org/omg/CSIIOP/CompoundSecMechList
+instanceKlass com/sun/corba/ee/org/omg/CSIIOP/CompoundSecMechListHelper
+instanceKlass com/sun/corba/ee/impl/presentation/rmi/ExceptionHandlerImpl$ExceptionRWBase
+instanceKlass com/sun/corba/ee/impl/presentation/rmi/ExceptionHandlerImpl$ExceptionRW
+instanceKlass com/sun/corba/ee/impl/presentation/rmi/ExceptionHandlerImpl
+instanceKlass com/sun/corba/ee/impl/presentation/rmi/DynamicMethodMarshallerImpl$ReaderWriterBase
+instanceKlass com/sun/corba/ee/impl/presentation/rmi/DynamicMethodMarshallerImpl$ReaderWriter
+instanceKlass com/sun/corba/ee/impl/presentation/rmi/ExceptionHandler
+instanceKlass com/sun/corba/ee/impl/presentation/rmi/DynamicMethodMarshallerImpl
+instanceKlass javax/rmi/PortableRemoteObject
+instanceKlass com/sun/corba/ee/impl/presentation/rmi/StubInvocationHandlerImpl
+instanceKlass org/glassfish/pfl/basic/proxy/LinkedInvocationHandler
+instanceKlass com/sun/corba/ee/impl/presentation/rmi/codegen/StubFactoryCodegenImpl$3
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/CodeGeneratorUtil$1
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/CodeGeneratorUtil
+instanceKlass org/glassfish/pfl/objectweb/asm/MethodAdapter
+instanceKlass org/glassfish/pfl/objectweb/asm/Attribute
+instanceKlass org/glassfish/pfl/objectweb/asm/ClassAdapter
+instanceKlass org/glassfish/pfl/objectweb/asm/ClassReader
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/ByteCodeUtility$1
+instanceKlass org/glassfish/pfl/objectweb/asm/Frame
+instanceKlass org/glassfish/pfl/objectweb/asm/Edge
+instanceKlass org/glassfish/pfl/objectweb/asm/Type
+instanceKlass org/glassfish/pfl/objectweb/asm/MethodWriter
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/EmitterFactory$CompoundEmitter
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/EmitterFactory$NullEmitter
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/ByteCodeUtility
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/ASMSetupVisitor$1
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/EmitterFactory$IntOperandEmitter
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/EmitterFactory$SimpleEmitter
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/EmitterFactory
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/ASMSetupVisitor$SlotAllocator
+instanceKlass org/glassfish/pfl/objectweb/asm/Item
+instanceKlass org/glassfish/pfl/objectweb/asm/ByteVector
+instanceKlass org/glassfish/pfl/objectweb/asm/FieldVisitor
+instanceKlass org/glassfish/pfl/objectweb/asm/MethodVisitor
+instanceKlass org/glassfish/pfl/objectweb/asm/AnnotationVisitor
+instanceKlass org/glassfish/pfl/objectweb/asm/ClassWriter
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/ASMUtil$3
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/ASMUtil$2
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/EmitterFactory$Emitter
+instanceKlass org/glassfish/pfl/objectweb/asm/Label
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/Attribute
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/ASMUtil$1
+instanceKlass org/glassfish/pfl/objectweb/asm/ClassVisitor
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/ASMUtil
+instanceKlass org/glassfish/pfl/dynamic/codegen/spi/Primitives
+instanceKlass com/sun/corba/se/impl/orbutil/GetPropertyAction
+instanceKlass org/glassfish/pfl/dynamic/copyobject/impl/ClassCopierOrdinaryImpl$2
+instanceKlass org/glassfish/pfl/dynamic/copyobject/impl/ClassCopierOrdinaryImpl$ConstructorFactory$1
+instanceKlass org/glassfish/pfl/dynamic/copyobject/impl/ClassCopierOrdinaryImpl$ConstructorFactory
+instanceKlass org/glassfish/pfl/dynamic/copyobject/impl/ClassCopierOrdinaryImpl$5
+instanceKlass org/glassfish/pfl/dynamic/copyobject/spi/Copy
+instanceKlass org/glassfish/pfl/dynamic/copyobject/impl/ClassCopierOrdinaryImpl$ClassFieldCopierUnsafeImpl$UnsafeFieldCopier
+instanceKlass org/glassfish/pfl/dynamic/copyobject/impl/ClassCopierOrdinaryImpl$ClassFieldCopierUnsafeImpl
+instanceKlass org/glassfish/pfl/dynamic/copyobject/impl/ClassCopierOrdinaryImpl$ClassFieldCopier
+instanceKlass org/glassfish/pfl/dynamic/copyobject/impl/ClassCopierOrdinaryImpl$4
+instanceKlass org/glassfish/pfl/dynamic/copyobject/spi/Immutable
+instanceKlass org/glassfish/pfl/dynamic/copyobject/impl/JavaStreamObjectCopierImpl
+instanceKlass org/glassfish/pfl/dynamic/copyobject/impl/ObjectCopierImpl$1
+instanceKlass org/glassfish/pfl/dynamic/copyobject/impl/DefaultClassCopiers
+instanceKlass org/glassfish/pfl/dynamic/copyobject/impl/DefaultClassCopierFactories$1
+instanceKlass org/glassfish/pfl/dynamic/copyobject/impl/ClassCopierFactoryArrayImpl
+instanceKlass org/glassfish/pfl/dynamic/copyobject/impl/DefaultClassCopierFactories$3
+instanceKlass org/glassfish/pfl/dynamic/copyobject/impl/DefaultClassCopierFactories$2
+instanceKlass java/lang/Process
+instanceKlass java/lang/ProcessBuilder
+instanceKlass org/glassfish/pfl/dynamic/copyobject/impl/ClassCopierFactoryPipelineImpl
+instanceKlass org/glassfish/pfl/dynamic/copyobject/impl/CachingClassCopierFactory
+instanceKlass org/glassfish/pfl/dynamic/copyobject/impl/PipelineClassCopierFactory
+instanceKlass org/glassfish/pfl/dynamic/copyobject/impl/DefaultClassCopierFactories
+instanceKlass org/glassfish/pfl/dynamic/copyobject/impl/ClassCopierFactory
+instanceKlass org/glassfish/pfl/dynamic/copyobject/impl/ObjectCopierImpl
+instanceKlass org/glassfish/pfl/dynamic/copyobject/spi/DefaultCopier
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/TreeWalker
+instanceKlass org/glassfish/pfl/basic/contain/MarkStack
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/TreeWalkerContext
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/Visitor
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/Util
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/CodeGenerator
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/CurrentClassLoader
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/ImportListImpl
+instanceKlass org/glassfish/pfl/dynamic/copyobject/impl/ClassCopierOrdinaryImpl$1
+instanceKlass org/glassfish/pfl/dynamic/copyobject/impl/ClassCopierBase
+instanceKlass org/glassfish/pfl/dynamic/copyobject/impl/ClassCopier
+instanceKlass org/glassfish/pfl/basic/fsm/Runner
+instanceKlass org/glassfish/pfl/basic/fsm/FSMImpl
+instanceKlass org/glassfish/pfl/basic/fsm/FSM
+instanceKlass org/glassfish/pfl/dynamic/codegen/spi/Wrapper$Context
+instanceKlass org/glassfish/pfl/dynamic/codegen/spi/ImportList
+instanceKlass org/glassfish/pfl/dynamic/codegen/spi/Wrapper$Environment
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/AttributedObjectBase
+instanceKlass org/glassfish/pfl/dynamic/copyobject/spi/CopyInterceptor
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/VariableInternal
+instanceKlass org/glassfish/pfl/dynamic/codegen/spi/Signature
+instanceKlass org/glassfish/pfl/dynamic/codegen/spi/Variable
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/ExpressionInternal
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/Statement
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/ExpressionFactory
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/MemberInfoBase
+instanceKlass org/glassfish/pfl/dynamic/codegen/spi/FieldInfo
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/ClassInfoReflectiveImpl$1
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/ClassInfoBase
+instanceKlass org/glassfish/pfl/dynamic/codegen/spi/MethodInfo
+instanceKlass org/glassfish/pfl/dynamic/codegen/spi/MemberInfo
+instanceKlass org/glassfish/pfl/dynamic/codegen/spi/Utility
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/Identifier
+instanceKlass org/glassfish/pfl/dynamic/codegen/spi/Type
+instanceKlass org/glassfish/pfl/basic/fsm/Guard$Base$SimpleName
+instanceKlass org/glassfish/pfl/basic/func/BinaryPredicate
+instanceKlass org/glassfish/pfl/basic/fsm/Guard
+instanceKlass org/glassfish/pfl/basic/fsm/Transition
+instanceKlass org/glassfish/pfl/basic/fsm/StateEngine
+instanceKlass org/glassfish/pfl/basic/fsm/Action
+instanceKlass org/glassfish/pfl/basic/fsm/NameBase
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/Node
+instanceKlass org/glassfish/pfl/dynamic/codegen/impl/AttributedObject
+instanceKlass org/glassfish/pfl/dynamic/codegen/spi/ClassGenerator
+instanceKlass org/glassfish/pfl/dynamic/codegen/spi/ClassInfo
+instanceKlass org/glassfish/pfl/dynamic/codegen/spi/Expression
+instanceKlass org/glassfish/pfl/basic/fsm/Input
+instanceKlass org/glassfish/pfl/dynamic/codegen/spi/Wrapper
+instanceKlass com/sun/corba/ee/impl/presentation/rmi/codegen/CodegenProxyCreator
+instanceKlass com/sun/corba/ee/impl/presentation/rmi/codegen/StubFactoryCodegenImpl$1
+instanceKlass com/sun/corba/ee/impl/util/PackagePrefixChecker
+instanceKlass com/sun/corba/ee/impl/util/Utility
+instanceKlass com/sun/corba/ee/impl/presentation/rmi/StubFactoryBase
+instanceKlass com/sun/corba/ee/impl/presentation/rmi/InvocationHandlerFactoryImpl
+instanceKlass com/sun/corba/ee/impl/presentation/rmi/IDLType
+instanceKlass com/sun/corba/ee/impl/presentation/rmi/IDLNameTranslatorImpl$IDLMethodInfo
+instanceKlass com/sun/corba/ee/impl/presentation/rmi/IDLNameTranslatorImpl$3
+instanceKlass com/sun/corba/ee/impl/presentation/rmi/IDLTypesUtil$1
+instanceKlass com/sun/corba/ee/impl/presentation/rmi/IDLTypesUtil
+instanceKlass com/sun/corba/ee/impl/presentation/rmi/IDLNameTranslatorImpl$2
+instanceKlass com/sun/corba/ee/impl/presentation/rmi/IDLNameTranslatorImpl
+instanceKlass org/glassfish/pfl/basic/graph/GraphImpl$1
+instanceKlass org/glassfish/pfl/basic/graph/NodeData
+instanceKlass com/sun/corba/ee/impl/presentation/rmi/PresentationManagerImpl$NodeImpl
+instanceKlass org/glassfish/pfl/basic/graph/Node
+instanceKlass org/glassfish/pfl/basic/graph/GraphImpl$NodeVisitor
+instanceKlass org/glassfish/pfl/basic/graph/Graph
+instanceKlass com/sun/corba/ee/impl/presentation/rmi/PresentationManagerImpl$ClassDataImpl
+instanceKlass com/sun/enterprise/naming/impl/SerialContextProvider
+instanceKlass com/sun/corba/ee/impl/util/JDKClassLoader$JDKClassLoaderCache$CacheKey
+instanceKlass com/sun/corba/ee/impl/util/JDKClassLoader$1
+instanceKlass com/sun/corba/ee/impl/util/JDKClassLoader$JDKClassLoaderCache
+instanceKlass com/sun/corba/ee/impl/util/JDKClassLoader
+instanceKlass com/sun/corba/ee/impl/io/ObjectStreamClass$MethodSignature
+instanceKlass com/sun/corba/ee/impl/io/ObjectStreamClass$3
+instanceKlass com/sun/corba/ee/impl/io/ObjectStreamField$1
+instanceKlass com/sun/corba/ee/impl/io/ObjectStreamClass$2
+instanceKlass org/omg/CORBA/portable/CustomValue
+instanceKlass org/omg/CORBA/CustomMarshal
+instanceKlass com/sun/corba/ee/impl/misc/ClassInfoCache$ClassInfo$LazyWrapper
+instanceKlass com/sun/corba/ee/impl/misc/ClassInfoCache$ClassInfo
+instanceKlass com/sun/corba/ee/impl/misc/ClassInfoCache
+instanceKlass com/sun/corba/ee/impl/io/ObjectStreamClass$CompareMemberByName
+instanceKlass com/sun/corba/ee/impl/io/ObjectStreamClass$CompareObjStrFieldsByName
+instanceKlass com/sun/corba/ee/impl/io/ObjectStreamClass$CompareClassByName
+instanceKlass com/sun/corba/ee/impl/io/ObjectStreamField
+instanceKlass com/sun/corba/ee/impl/io/ObjectStreamClass$PersistentFieldsValue
+instanceKlass sun/corba/Bridge$2
+instanceKlass sun/corba/Bridge$1
+instanceKlass sun/corba/Bridge
+instanceKlass com/sun/corba/ee/impl/io/ObjectStreamClass$1
+instanceKlass com/sun/corba/ee/impl/io/ObjectStreamClass
+instanceKlass javax/rmi/CORBA/ClassDesc
+instanceKlass com/sun/corba/ee/impl/util/RepositoryId
+instanceKlass com/sun/corba/ee/impl/transport/SelectorImpl$SelectionKeyAndOp
+instanceKlass org/omg/CORBA/ObjectHelper
+instanceKlass org/omg/CosNaming/NameComponentHelper
+instanceKlass org/omg/CosNaming/NameHelper
+instanceKlass org/omg/CosNaming/NameComponent
+instanceKlass com/sun/corba/ee/impl/transport/TemporarySelectorStateOpen
+instanceKlass com/sun/corba/ee/impl/util/JDKBridge
+instanceKlass com/sun/corba/ee/impl/ior/iiop/IIOPProfileImpl$LocalCodeBaseSingletonHolder
+instanceKlass com/sun/corba/ee/spi/threadpool/ThreadStateValidator
+instanceKlass com/sun/corba/ee/impl/protocol/RequestIdImpl
+instanceKlass org/omg/CORBA/OctetSeqHelper
+instanceKlass com/sun/corba/ee/impl/encoding/BufferQueue
+instanceKlass com/sun/corba/ee/impl/encoding/BufferManagerReadStream
+instanceKlass com/sun/corba/ee/spi/transport/TemporarySelectorState
+instanceKlass com/sun/corba/ee/impl/transport/TemporarySelector
+instanceKlass com/sun/corba/ee/impl/threadpool/Exceptions
+instanceKlass java/util/concurrent/locks/LockSupport
+instanceKlass com/sun/corba/ee/impl/transport/NioBufferWriter
+instanceKlass com/sun/corba/ee/impl/transport/MessageTraceManagerImpl
+instanceKlass org/glassfish/pfl/basic/logex/OperationTracer$2
+instanceKlass org/glassfish/pfl/basic/logex/OperationTracer$Element
+instanceKlass org/glassfish/pfl/basic/logex/OperationTracer
+instanceKlass com/sun/corba/ee/impl/encoding/CodeSetCache
+instanceKlass com/sun/corba/ee/impl/encoding/CodeSetConversion$CodeSetConversionHolder
+instanceKlass com/sun/corba/ee/impl/encoding/CodeSetConversion
+instanceKlass com/sun/corba/ee/impl/protocol/giopmsgheaders/TargetAddressHelper
+instanceKlass org/omg/CosTransactions/OTSPolicy
+instanceKlass org/omg/CosTransactions/OTSPolicyOperations
+instanceKlass com/sun/corba/ee/org/omg/CSI/AuthorizationElement
+instanceKlass com/sun/corba/ee/impl/transport/ResponseWaitingRoomImpl$OutCallDesc
+instanceKlass com/sun/corba/ee/impl/servicecontext/ServiceContextsImpl
+instanceKlass com/sun/corba/ee/impl/protocol/MessageMediatorImpl
+instanceKlass com/sun/corba/ee/impl/transport/ResponseWaitingRoomImpl
+instanceKlass com/sun/corba/ee/impl/transport/SocketChannelReader
+instanceKlass com/sun/corba/ee/impl/protocol/MessageParserImpl
+instanceKlass com/sun/corba/ee/impl/transport/ConnectionImpl$1
+instanceKlass com/sun/corba/ee/impl/transport/ConnectionImpl$Dispatcher
+instanceKlass com/sun/corba/ee/spi/protocol/MessageParser
+instanceKlass com/sun/corba/ee/impl/transport/OutboundConnectionCacheProbeProvider
+instanceKlass com/sun/corba/ee/impl/interceptors/SlotTable
+instanceKlass com/sun/corba/ee/impl/interceptors/SlotTableStack
+instanceKlass com/sun/corba/ee/spi/legacy/interceptor/RequestInfoExt
+instanceKlass com/sun/corba/ee/impl/transport/TcpTimeoutsImpl$1
+instanceKlass com/sun/corba/ee/impl/transport/ContactInfoListIteratorImpl
+instanceKlass com/sun/corba/ee/spi/transport/ContactInfoListIterator
+instanceKlass com/sun/corba/ee/impl/folb/ClientGroupManager$1
+instanceKlass com/sun/enterprise/iiop/security/ConnectionExecutionContext$1
+instanceKlass com/sun/enterprise/iiop/security/ConnectionExecutionContext
+instanceKlass com/sun/enterprise/iiop/security/CSIV2TaggedComponentInfo$DescriptorMaker
+instanceKlass org/omg/IOP/CodecFactoryHelper
+instanceKlass com/sun/corba/ee/impl/transport/ContactInfoBase
+instanceKlass com/sun/corba/ee/impl/protocol/InvocationInfo
+instanceKlass org/glassfish/pfl/basic/contain/StackImpl
+instanceKlass org/omg/CosNaming/NamingContext
+instanceKlass org/omg/CosNaming/NamingContextOperations
+instanceKlass org/omg/CosNaming/NamingContextHelper
+instanceKlass com/sun/corba/ee/impl/resolver/INSURLOperationImpl$1
+instanceKlass com/sun/corba/ee/impl/naming/namingutil/IIOPEndpointInfo
+instanceKlass com/sun/corba/ee/spi/logging/NamingSystemException
+instanceKlass com/sun/corba/ee/impl/naming/namingutil/Utility
+instanceKlass com/sun/corba/ee/impl/naming/namingutil/INSURLBase
+instanceKlass com/sun/enterprise/naming/impl/SerialContext$ProviderCacheKey
+instanceKlass com/sun/corba/ee/impl/protocol/LocalClientRequestDispatcherBase
+instanceKlass com/sun/corba/ee/impl/ior/EncapsulationUtility
+instanceKlass com/sun/corba/ee/impl/encoding/CDRInputObject$InputStreamFactory
+instanceKlass com/sun/corba/ee/impl/encoding/BufferManagerReadGrow
+instanceKlass org/omg/CORBA_2_3/portable/InputStream$1
+instanceKlass org/omg/IOP/TaggedComponentHelper
+instanceKlass com/sun/corba/ee/impl/corba/TCUtility
+instanceKlass com/sun/corba/ee/impl/misc/RepIdDelegator
+instanceKlass com/sun/corba/ee/impl/misc/RepositoryIdInterface
+instanceKlass com/sun/corba/ee/impl/misc/RepositoryIdUtility
+instanceKlass com/sun/corba/ee/impl/misc/RepositoryIdStrings
+instanceKlass com/sun/corba/ee/impl/misc/RepositoryIdFactory
+instanceKlass com/sun/corba/ee/impl/encoding/CDROutputObject$OutputStreamFactory
+instanceKlass com/sun/corba/ee/impl/encoding/BufferManagerFactory
+instanceKlass com/sun/corba/ee/impl/encoding/EncapsOutputStream$EncapsInputStreamFactory
+instanceKlass org/omg/CORBA_2_3/portable/OutputStream$1
+instanceKlass org/omg/CORBA/ORB$1
+instanceKlass com/sun/corba/ee/spi/legacy/interceptor/IORInfoExt
+instanceKlass sun/util/logging/LoggingSupport$2
+instanceKlass sun/rmi/runtime/Log$LoggerLog$1
+instanceKlass sun/rmi/runtime/Log$LoggerLogFactory
+instanceKlass sun/rmi/runtime/Log$LogFactory
+instanceKlass sun/rmi/runtime/Log
+instanceKlass sun/rmi/server/LoaderHandler
+instanceKlass java/rmi/server/RMIClassLoader$1
+instanceKlass java/rmi/server/RMIClassLoaderSpi
+instanceKlass java/rmi/server/RMIClassLoader
+instanceKlass com/sun/jts/CosTransactions/RecoveryManager$TransactionRecoveryFenceSimple
+instanceKlass com/sun/jts/CosTransactions/EventSemaphore
+instanceKlass org/omg/CosTransactions/Resource
+instanceKlass org/omg/CosTransactions/ResourceOperations
+instanceKlass com/sun/enterprise/transaction/jts/api/TransactionRecoveryFence
+instanceKlass com/sun/jts/CosTransactions/RecoveryManager
+instanceKlass com/sun/jts/CosTransactions/TimeoutManager
+instanceKlass com/sun/jts/codegen/otsidl/JCoordinator
+instanceKlass com/sun/jts/codegen/otsidl/JCoordinatorOperations
+instanceKlass org/omg/CosTransactions/Coordinator
+instanceKlass org/omg/CosTransactions/CoordinatorOperations
+instanceKlass com/sun/jts/CosTransactions/SenderReceiver
+instanceKlass org/omg/CosTSPortability/Receiver
+instanceKlass org/omg/CosTSPortability/Sender
+instanceKlass com/sun/jts/CosTransactions/CurrentTransaction
+instanceKlass org/omg/CosTransactions/Control
+instanceKlass org/omg/CosTransactions/ControlOperations
+instanceKlass com/sun/corba/ee/impl/ior/ObjectReferenceProducerBase
+instanceKlass org/omg/CORBA/portable/StreamableValue
+instanceKlass com/sun/corba/ee/impl/ior/ByteBuffer
+instanceKlass com/sun/corba/ee/impl/ior/ObjectKeyTemplateBase
+instanceKlass com/sun/corba/ee/impl/oa/poa/ActiveObjectMap
+instanceKlass com/sun/corba/ee/impl/oa/poa/POAPolicyMediatorBase
+instanceKlass com/sun/corba/ee/impl/oa/poa/POAPolicyMediatorFactory
+instanceKlass com/sun/jts/CosTransactions/Configuration
+instanceKlass org/omg/CosTransactions/TransactionFactory
+instanceKlass org/omg/CosTransactions/TransactionFactoryOperations
+instanceKlass org/omg/CosTransactions/Current
+instanceKlass org/omg/CosTransactions/CurrentOperations
+instanceKlass com/sun/jts/CosTransactions/DefaultTransactionService
+instanceKlass com/sun/jts/CosTransactions/ProxyChecker
+instanceKlass org/omg/CosTransactions/otid_t
+instanceKlass org/omg/CosTransactions/TransIdentity
+instanceKlass org/omg/CosTransactions/PropagationContext
+instanceKlass com/sun/jts/jta/TransactionServiceProperties
+instanceKlass sun/security/provider/PolicyFile$PolicyEntry
+instanceKlass sun/security/provider/PolicyParser$PermissionEntry
+instanceKlass sun/security/provider/PolicyParser$GrantEntry
+instanceKlass java/io/StreamTokenizer
+instanceKlass sun/security/util/PolicyUtil
+instanceKlass sun/security/provider/PolicyParser
+instanceKlass sun/security/util/PropertyExpander
+instanceKlass sun/security/provider/PolicyFile$3
+instanceKlass java/security/ProtectionDomain$3$1
+instanceKlass sun/misc/JavaSecurityProtectionDomainAccess$ProtectionDomainCache
+instanceKlass sun/security/provider/PolicyFile$PolicyInfo
+instanceKlass sun/security/provider/PolicyFile$1
+instanceKlass java/security/Policy$1
+instanceKlass java/security/Policy$PolicyInfo
+instanceKlass com/sun/enterprise/iiop/security/SecurityContextUtil$1
+instanceKlass com/sun/corba/ee/org/omg/CSIIOP/AS_ContextSec
+instanceKlass com/sun/corba/ee/org/omg/CSIIOP/SAS_ContextSec
+instanceKlass com/sun/enterprise/deployment/EjbIORConfigurationDescriptor
+instanceKlass com/sun/corba/ee/org/omg/CSIIOP/CompoundSecMech
+instanceKlass com/sun/enterprise/iiop/security/ConnectionContext
+instanceKlass com/sun/enterprise/iiop/security/CSIV2TaggedComponentInfo
+instanceKlass java/security/Policy
+instanceKlass com/sun/enterprise/common/iiop/security/SecurityContext
+instanceKlass com/sun/enterprise/iiop/security/SecurityContextUtil
+instanceKlass org/glassfish/gms/bootstrap/GMSAdapterService
+instanceKlass com/sun/enterprise/iiop/security/SecurityMechanismSelector
+instanceKlass com/sun/enterprise/iiop/security/Lookups
+instanceKlass com/sun/enterprise/transaction/jts/iiop/TransactionInterceptorFactory
+instanceKlass org/omg/CORBA/TSIdentification
+instanceKlass java/lang/Package$1
+instanceKlass com/sun/enterprise/transaction/jts/iiop/TransactionIIOPInterceptorFactory
+instanceKlass com/sun/enterprise/iiop/security/SecurityIIOPInterceptorFactory
+instanceKlass com/sun/enterprise/iiop/security/AlternateSecurityInterceptorFactory
+instanceKlass com/sun/enterprise/security/appclient/AppclientIIOPInterceptorFactory
+instanceKlass org/glassfish/enterprise/iiop/api/IIOPInterceptorFactory
+instanceKlass com/sun/corba/ee/spi/legacy/interceptor/ORBInitInfoExt
+instanceKlass com/sun/corba/ee/spi/oa/rfm/ReferenceFactory
+instanceKlass com/sun/corba/ee/spi/oa/rfm/ReferenceFactoryManager
+instanceKlass org/omg/PortableInterceptor/IORInterceptor_3_0
+instanceKlass org/omg/PortableInterceptor/IORInterceptor_3_0Operations
+instanceKlass com/sun/corba/ee/spi/presentation/rmi/DynamicStub
+instanceKlass com/sun/corba/ee/spi/presentation/rmi/StubAdapter
+instanceKlass org/glassfish/enterprise/iiop/api/GlassFishORBHelper$1
+instanceKlass org/glassfish/enterprise/iiop/impl/PEORBConfigurator$1
+instanceKlass com/sun/corba/ee/spi/copyobject/CopyobjectDefaults$4
+instanceKlass com/sun/corba/ee/spi/copyobject/CopyobjectDefaults$6
+instanceKlass org/glassfish/enterprise/iiop/util/GenericStatsImpl
+instanceKlass org/glassfish/enterprise/iiop/util/ORBCommonStatsImpl
+instanceKlass com/sun/corba/ee/impl/threadpool/WorkQueueImpl
+instanceKlass com/sun/corba/ee/impl/threadpool/ThreadPoolImpl
